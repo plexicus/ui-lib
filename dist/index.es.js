@@ -5581,8 +5581,8 @@ const ls = () => {
     {
       className: "fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300",
       style: {
-        background: "#8220ff",
-        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        background: c ? "#8220ff" : "transparent",
+        boxShadow: c ? "0 4px 6px rgba(0, 0, 0, 0.1)" : "none",
         transition: "all 0.3s ease-in-out",
         minHeight: "64px"
       },
