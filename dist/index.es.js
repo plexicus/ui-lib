@@ -46,7 +46,7 @@ var pe = {};
  */
 var Je;
 function Ht() {
-  return Je || (Je = 1, process.env.NODE_ENV !== "production" && function() {
+  return Je || (Je = 1, process.env.NODE_ENV !== "production" && (function() {
     function o(g) {
       if (g == null) return null;
       if (typeof g == "function")
@@ -275,7 +275,7 @@ React keys must be passed directly to JSX without using spread:
         G ? V(s(g)) : b
       );
     };
-  }()), pe;
+  })()), pe;
 }
 var qe;
 function Kt() {
@@ -3942,7 +3942,7 @@ class ir {
   }
   resetRegExp() {
     const e = (t, s) => (t == null ? void 0 : t.source) === s ? (t.lastIndex = 0, t) : new RegExp(s, "g");
-    this.regexp = e(this.regexp, `${this.prefix}(.+?)${this.suffix}`), this.regexpUnescape = e(this.regexpUnescape, `${this.prefix}${this.unescapePrefix}(.+?)${this.unescapeSuffix}${this.suffix}`), this.nestingRegexp = e(this.nestingRegexp, `${this.nestingPrefix}(.+?)${this.nestingSuffix}`);
+    this.regexp = e(this.regexp, `${this.prefix}(.+?)${this.suffix}`), this.regexpUnescape = e(this.regexpUnescape, `${this.prefix}${this.unescapePrefix}(.+?)${this.unescapeSuffix}${this.suffix}`), this.nestingRegexp = e(this.nestingRegexp, `${this.nestingPrefix}((?:[^()"']+|"[^"]*"|'[^']*'|\\((?:[^()]|"[^"]*"|'[^']*')*\\))*?)${this.nestingSuffix}`);
   }
   interpolate(e, t, s, r) {
     var u;
@@ -4638,7 +4638,9 @@ var Ge = {
       government: "Government",
       government_desc: "Security solutions for government agencies",
       retailtech: "RetailTech",
-      retailtech_desc: "Security for e-commerce and retail platforms"
+      retailtech_desc: "Security for e-commerce and retail platforms",
+      legaltech: "LegalTech",
+      legal_desc: "Security for legal companies"
     },
     developers: {
       title: "Developers",
@@ -4773,7 +4775,9 @@ var He = {
       government: "Gobierno",
       government_desc: "Soluciones de seguridad para agencias gubernamentales",
       retailtech: "RetailTech",
-      retailtech_desc: "Seguridad para plataformas de comercio electrónico y minoristas"
+      retailtech_desc: "Seguridad para plataformas de comercio electrónico y minoristas",
+      legaltech: "LegalTech",
+      legal_desc: "Sicurezza per aziende legali"
     },
     developers: {
       title: "Desarrolladores",
@@ -4908,7 +4912,9 @@ var Ke = {
       government: "Governo",
       government_desc: "Soluzioni di sicurezza per enti governativi",
       retailtech: "RetailTech",
-      retailtech_desc: "Sicurezza per piattaforme di e-commerce e vendita al dettaglio"
+      retailtech_desc: "Sicurezza per piattaforme di e-commerce e vendita al dettaglio",
+      legaltech: "LegalTech",
+      legal_desc: "Sicurezza per aziende legali"
     },
     developers: {
       title: "Sviluppatori",
@@ -5537,6 +5543,18 @@ const xr = ({
               ]
             }
           )
+        },
+        {
+          title: u("nav.solutions.legaltech"),
+          description: u("nav.solutions.legal_desc"),
+          href: `${j}${s}solutions/legaltech`,
+          icon: /* @__PURE__ */ i.jsxs("svg", { xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", "stroke-width": "2", "stroke-linecap": "round", "stroke-linejoin": "round", className: "lucide lucide-gavel-icon lucide-gavel", children: [
+            /* @__PURE__ */ i.jsx("path", { d: "m14 13-8.381 8.38a1 1 0 0 1-3.001-3l8.384-8.381" }),
+            /* @__PURE__ */ i.jsx("path", { d: "m16 16 6-6" }),
+            /* @__PURE__ */ i.jsx("path", { d: "m21.5 10.5-8-8" }),
+            /* @__PURE__ */ i.jsx("path", { d: "m8 8 6-6" }),
+            /* @__PURE__ */ i.jsx("path", { d: "m8.5 7.5 8 8" })
+          ] })
         }
       ]
     },
