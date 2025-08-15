@@ -1,0 +1,122 @@
+footer:
+  policies:
+    legal_notice: Hukuki Bildirim
+    management_policy: Yönetim Politikası
+    privacy_policy: Gizlilik Politikası
+  readiness: SOC2 Tip II Hazırlığı
+  sections:
+    company:
+      links:
+        about_us: Hakkımızda
+        careers: Kariyer
+        contact: İletişim
+        privacy_policy: Gizlilik Politikası
+      title: Şirket
+    products:
+      links:
+        aspm: ASPM
+        benefits: Faydalar
+        ciem: CIEM
+        container_security: Konteyner Güvenliği
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: Platform Genel Bakış
+        pricing: Fiyatlandırma
+        use_cases: Kullanım Senaryoları
+      title: Ürünler
+    resources:
+      links:
+        blog: Blog
+        case_studies: Vaka Çalışmaları
+        documentation: Dokümantasyon
+        security_resources: Güvenlik Kaynakları
+      title: Kaynaklar
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Plexicus ile siber güvenlik stratejinizi yükseltin
+nav:
+  contact: İletişim
+  developers:
+    api_references: API Referansları
+    api_references_desc: Kapsamlı API dokümantasyonu
+    documentation: Dokümantasyon
+    documentation_desc: Teknik kılavuzlar ve referanslar
+    github_apps: GitHub Uygulamaları
+    github_apps_desc: Plexicus'u depolarınızla entegre edin
+    plexalyzer_action: Plexalyzer Eylemi
+    plexalyzer_action_desc: CI/CD hattınızda güvenliği otomatikleştirin
+    title: Geliştiriciler
+  get_started: Başlayın
+  languages: Diller
+  login: Giriş
+  pricing: Fiyatlandırma
+  product:
+    aspm: ASPM
+    aspm_desc: Uygulama Güvenliği Duruş Yönetimi
+    benefits: Faydalar
+    benefits_desc: Plexicus'un güvenliği nasıl dönüştürdüğünü görün
+    ciem: CIEM
+    ciem_desc: Bulut Altyapısı Yetki Yönetimi
+    container_security: Konteyner Güvenliği
+    container_security_desc: Konteyner ve Kubernetes güvenliği
+    cspm: CSPM
+    cspm_desc: Bulut Güvenliği Duruş Yönetimi
+    cwpp: CWPP
+    cwpp_desc: Bulut İş Yükü Koruma Platformu
+    explore: Ürünümüzü keşfedin
+    platform_overview: Platform Genel Bakış
+    platform_overview_desc: Birleşik CNAPP platformu
+    title: Ürün
+    use_cases: Kullanım Senaryoları
+    use_cases_desc: Gerçek dünya uygulama örnekleri
+  resources:
+    blog: Blog
+    blog_desc: En son haberler ve güvenlik içgörüleri
+    branding_assets: Marka Varlıkları
+    branding_assets_desc: Logolar ve marka yönergeleri
+    changelogs: Değişiklik Günlükleri
+    changelogs_desc: En son ürün güncellemeleri
+    comparison_overview: Karşılaştırma Genel Bakış
+    comparison_overview_desc: Plexicus'un diğer güvenlik araçlarıyla nasıl karşılaştırıldığını
+      görün
+    explore: Kaynaklarımızı keşfedin
+    feature_requests: Özellik Talepleri
+    feature_requests_desc: Yeni özellikler için oy verin ve gönderin
+    integrations: Entegrasyonlar
+    integrations_desc: Araçlarınızı ve platformlarınızı bağlayın
+    support: Destek
+    support_desc: Plexicus, platformumuzdan en iyi şekilde yararlanmanıza yardımcı
+      olmak için kapsamlı destek sağlar.
+    title: Kaynaklar
+    youtube_channel: YouTube Kanalı
+    youtube_channel_desc: Video eğitimleri ve web seminerleri
+  solutions:
+    agencies: Ajanslar
+    agencies_desc: Dijital ve pazarlama ajansları için güvenlik
+    enterprise: Kurumsal
+    enterprise_desc: Büyük organizasyonlar için kapsamlı güvenlik
+    explore: Çözümlerimizi keşfedin
+    fintech: FinTech
+    fintech_desc: Finansal teknoloji için güvenlik çözümleri
+    government: Devlet
+    government_desc: Devlet kurumları için güvenlik çözümleri
+    group_companies: Grup Şirketleri
+    group_companies_desc: Kurumsal gruplar ve holdingler için çözümler
+    healthtech: Sağlık Teknolojisi
+    healthtech_desc: HIPAA uyumlu güvenlik çözümleri
+    hrtech: İnsan Kaynakları Teknolojisi
+    hrtech_desc: İnsan kaynakları teknolojisi için güvenlik
+    legal_desc: Hukuk şirketleri için güvenlik
+    legaltech: Hukuk Teknolojisi
+    manufacturing: Üretim
+    manufacturing_desc: Endüstriyel ve IoT sistemleri için güvenlik
+    mobile_apps: Mobil Uygulamalar
+    mobile_apps_desc: iOS ve Android uygulamaları için güvenlik
+    retailtech: Perakende Teknolojisi
+    retailtech_desc: E-ticaret ve perakende platformları için güvenlik
+    startups: Girişimler
+    startups_desc: Büyüyen şirketler için ölçeklenebilir güvenlik
+    title: Çözümler

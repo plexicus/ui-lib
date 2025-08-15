@@ -20,7 +20,7 @@ MAX_TOKENS_BY_CHUNK = {
 }
 
 LANG_MAP: Dict[str, str] = {
-    "en": "English", "de": "German", "fr": "French", "ja": "Japanese", "it": "Italian", "nl": "Dutch", "sv": "Swedish", "es": "Espana",
+    "en": "English", "de": "German", "fr": "French", "ja": "Japanese", "it": "Italian", "nl": "Dutch", "sv": "Swedish", "es": "Spanish",
     "no": "Norwegian", "da": "Danish", "fi": "Finnish", "pt": "Portuguese",
     "zh": "Chinese (Simplified)", "ar": "Arabic", "he": "Hebrew",
     "tr": "Turkish", "pl": "Polish", "cs": "Czech", "id": "Indonesian"
