@@ -3,7 +3,7 @@ name: Translate new language translation
 on:
   push:
     # Trigger only when a Markdown/MDX file under blog/src/i18n/dictionaries/ changes.
-    branches: ["main", "test"]
+    branches: ["main", "test-translate"]
     paths:
       - 'src/assets/locales/**/*.yml'
       - 'src/assets/locales/**/*.yaml'

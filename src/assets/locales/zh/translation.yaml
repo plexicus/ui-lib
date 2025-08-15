@@ -1,0 +1,120 @@
+footer:
+  policies:
+    legal_notice: 法律声明
+    management_policy: 管理政策
+    privacy_policy: 隐私政策
+  readiness: SOC2 Type II 准备
+  sections:
+    company:
+      links:
+        about_us: 关于我们
+        careers: 职业
+        contact: 联系
+        privacy_policy: 隐私政策
+      title: 公司
+    products:
+      links:
+        aspm: ASPM
+        benefits: 优势
+        ciem: CIEM
+        container_security: 容器安全
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: 平台概览
+        pricing: 定价
+        use_cases: 使用案例
+      title: 产品
+    resources:
+      links:
+        blog: 博客
+        case_studies: 案例研究
+        documentation: 文档
+        security_resources: 安全资源
+      title: 资源
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: 提升您的网络安全策略与Plexicus
+nav:
+  contact: 联系
+  developers:
+    api_references: API参考
+    api_references_desc: 全面的API文档
+    documentation: 文档
+    documentation_desc: 技术指南和参考
+    github_apps: GitHub应用
+    github_apps_desc: 将Plexicus与您的存储库集成
+    plexalyzer_action: Plexalyzer操作
+    plexalyzer_action_desc: 在您的CI/CD管道中自动化安全
+    title: 开发者
+  get_started: 开始使用
+  languages: 语言
+  login: 登录
+  pricing: 定价
+  product:
+    aspm: ASPM
+    aspm_desc: 应用安全态势管理
+    benefits: 优势
+    benefits_desc: 看看Plexicus如何改变安全性
+    ciem: CIEM
+    ciem_desc: 云基础设施权限管理
+    container_security: 容器安全
+    container_security_desc: 容器和Kubernetes安全
+    cspm: CSPM
+    cspm_desc: 云安全态势管理
+    cwpp: CWPP
+    cwpp_desc: 云工作负载保护平台
+    explore: 探索我们的产品
+    platform_overview: 平台概览
+    platform_overview_desc: 统一的CNAPP平台
+    title: 产品
+    use_cases: 使用案例
+    use_cases_desc: 实际应用示例
+  resources:
+    blog: 博客
+    blog_desc: 最新新闻和安全见解
+    branding_assets: 品牌资产
+    branding_assets_desc: 标志和品牌指南
+    changelogs: 更新日志
+    changelogs_desc: 最新产品更新
+    comparison_overview: 比较概览
+    comparison_overview_desc: 看看Plexicus与其他安全工具的比较
+    explore: 探索我们的资源
+    feature_requests: 功能请求
+    feature_requests_desc: 提交和投票新功能
+    integrations: 集成
+    integrations_desc: 连接您的工具和平台
+    support: 支持
+    support_desc: Plexicus提供全面支持，帮助您充分利用我们的平台。
+    title: 资源
+    youtube_channel: YouTube频道
+    youtube_channel_desc: 视频教程和网络研讨会
+  solutions:
+    agencies: 代理机构
+    agencies_desc: 数字和营销代理机构的安全性
+    enterprise: 企业
+    enterprise_desc: 大型组织的全面安全
+    explore: 探索我们的解决方案
+    fintech: 金融科技
+    fintech_desc: 金融科技的安全解决方案
+    government: 政府
+    government_desc: 政府机构的安全解决方案
+    group_companies: 集团公司
+    group_companies_desc: 企业集团和控股公司的解决方案
+    healthtech: 健康科技
+    healthtech_desc: 符合HIPAA的安全解决方案
+    hrtech: 人力资源科技
+    hrtech_desc: 人力资源技术的安全性
+    legal_desc: 法律公司的安全性
+    legaltech: 法律科技
+    manufacturing: 制造业
+    manufacturing_desc: 工业和物联网系统的安全性
+    mobile_apps: 移动应用
+    mobile_apps_desc: iOS和Android应用的安全性
+    retailtech: 零售科技
+    retailtech_desc: 电子商务和零售平台的安全性
+    startups: 初创公司
+    startups_desc: 为成长型公司的可扩展安全性
+    title: 解决方案
