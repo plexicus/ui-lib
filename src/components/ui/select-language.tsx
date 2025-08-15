@@ -18,7 +18,6 @@ export function SelectLanguage() {
 
     // Redirect to the new language path
     newPath = newPath.startsWith('/en/') ? newPath.replace(/^\/en/, '') : newPath
-    console.log({ newPath })
     window.location.href = newPath;
   };
 
