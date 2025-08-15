@@ -2,6 +2,9 @@ from typing import Dict
 from pydantic import BaseModel, Field
 from openai import AzureOpenAI
 import os
+import json
+import sys
+
 
 class SingleLanguage(BaseModel):
     text: str
@@ -79,7 +82,9 @@ def chunk_text(text: str, max_chunk_size: int) -> list[str]:
     return chunks
 
 client = AzureOpenAI(
-    api_key=os.environ["AZURE_OPENAI_KEY"],
+    # api_key=os.environ["AZURE_OPENAI_KEY"],
+    api_key="9d58ae675637487182db180bfeb3e1f1",
     api_version="2025-01-01-preview",
-    azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
+    # azure_endpoint=os.environ["AZURE_OPENAI_ENDPOINT"],
+    azure_endpoint="https://oct24.openai.azure.com/",
 )

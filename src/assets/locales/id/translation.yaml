@@ -1,0 +1,122 @@
+footer:
+  policies:
+    legal_notice: Pemberitahuan Hukum
+    management_policy: Kebijakan Manajemen
+    privacy_policy: Kebijakan Privasi
+  readiness: Kesiapan SOC2 Tipe II
+  sections:
+    company:
+      links:
+        about_us: Tentang Kami
+        careers: Karir
+        contact: Kontak
+        privacy_policy: Kebijakan Privasi
+      title: Perusahaan
+    products:
+      links:
+        aspm: ASPM
+        benefits: Manfaat
+        ciem: CIEM
+        container_security: Keamanan Kontainer
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: Tinjauan Platform
+        pricing: Harga
+        use_cases: Kasus Penggunaan
+      title: Produk
+    resources:
+      links:
+        blog: Blog
+        case_studies: Studi Kasus
+        documentation: Dokumentasi
+        security_resources: Sumber Daya Keamanan
+      title: Sumber Daya
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Tingkatkan strategi keamanan siber Anda dengan Plexicus
+nav:
+  contact: Kontak
+  developers:
+    api_references: Referensi API
+    api_references_desc: Dokumentasi API yang komprehensif
+    documentation: Dokumentasi
+    documentation_desc: Panduan teknis dan referensi
+    github_apps: Aplikasi GitHub
+    github_apps_desc: Integrasikan Plexicus dengan repositori Anda
+    plexalyzer_action: Tindakan Plexalyzer
+    plexalyzer_action_desc: Otomatiskan keamanan dalam pipeline CI/CD Anda
+    title: Pengembang
+  get_started: Mulai
+  languages: Bahasa
+  login: Masuk
+  pricing: Harga
+  product:
+    aspm: ASPM
+    aspm_desc: Manajemen Postur Keamanan Aplikasi
+    benefits: Manfaat
+    benefits_desc: Lihat bagaimana Plexicus mengubah keamanan
+    ciem: CIEM
+    ciem_desc: Manajemen Hak Infrastruktur Cloud
+    container_security: Keamanan Kontainer
+    container_security_desc: Keamanan Kontainer dan Kubernetes
+    cspm: CSPM
+    cspm_desc: Manajemen Postur Keamanan Cloud
+    cwpp: CWPP
+    cwpp_desc: Platform Perlindungan Beban Kerja Cloud
+    explore: Jelajahi produk kami
+    platform_overview: Tinjauan Platform
+    platform_overview_desc: Platform CNAPP yang terpadu
+    title: Produk
+    use_cases: Kasus Penggunaan
+    use_cases_desc: Contoh implementasi dunia nyata
+  resources:
+    blog: Blog
+    blog_desc: Berita terbaru dan wawasan keamanan
+    branding_assets: Aset Merek
+    branding_assets_desc: Logo dan panduan merek
+    changelogs: Catatan Perubahan
+    changelogs_desc: Pembaruan produk terbaru
+    comparison_overview: Tinjauan Perbandingan
+    comparison_overview_desc: Lihat bagaimana Plexicus dibandingkan dengan alat keamanan
+      lainnya
+    explore: Jelajahi sumber daya kami
+    feature_requests: Permintaan Fitur
+    feature_requests_desc: Kirim dan pilih fitur baru
+    integrations: Integrasi
+    integrations_desc: Hubungkan alat dan platform Anda
+    support: Dukungan
+    support_desc: Plexicus menyediakan dukungan komprehensif untuk membantu Anda mendapatkan
+      manfaat maksimal dari platform kami.
+    title: Sumber Daya
+    youtube_channel: Saluran YouTube
+    youtube_channel_desc: Tutorial video dan webinar
+  solutions:
+    agencies: Agensi
+    agencies_desc: Keamanan untuk agensi digital dan pemasaran
+    enterprise: Perusahaan
+    enterprise_desc: Keamanan komprehensif untuk organisasi besar
+    explore: Jelajahi solusi kami
+    fintech: FinTech
+    fintech_desc: Solusi keamanan untuk teknologi keuangan
+    government: Pemerintah
+    government_desc: Solusi keamanan untuk agensi pemerintah
+    group_companies: Perusahaan Grup
+    group_companies_desc: Solusi untuk grup perusahaan dan holding
+    healthtech: HealthTech
+    healthtech_desc: Solusi keamanan yang sesuai dengan HIPAA
+    hrtech: HRTech
+    hrtech_desc: Keamanan untuk teknologi sumber daya manusia
+    legal_desc: Keamanan untuk perusahaan hukum
+    legaltech: LegalTech
+    manufacturing: Manufaktur
+    manufacturing_desc: Keamanan untuk sistem industri dan IoT
+    mobile_apps: Aplikasi Mobile
+    mobile_apps_desc: Keamanan untuk aplikasi iOS dan Android
+    retailtech: RetailTech
+    retailtech_desc: Keamanan untuk platform e-commerce dan ritel
+    startups: Startup
+    startups_desc: Keamanan yang dapat diskalakan untuk perusahaan yang berkembang
+    title: Solusi

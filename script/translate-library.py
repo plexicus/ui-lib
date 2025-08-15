@@ -61,7 +61,8 @@ if __name__ == "__main__":
                     {"role": "user", "content": chunk},
                 ]
 
-                model_name = os.getenv("AZURE_OPENAI_DEPLOYMENT")
+                # model_name = os.getenv("AZURE_OPENAI_DEPLOYMENT")
+                model_name='gpt-4o'
 
                 last_exc = None
                 try:

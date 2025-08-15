@@ -1,0 +1,121 @@
+footer:
+  policies:
+    legal_notice: Juridisk Merknad
+    management_policy: Ledelsespolitikk
+    privacy_policy: Personvernpolicy
+  readiness: SOC2 Type II Beredskap
+  sections:
+    company:
+      links:
+        about_us: Om Oss
+        careers: Karriere
+        contact: Kontakt
+        privacy_policy: Personvernpolicy
+      title: Selskap
+    products:
+      links:
+        aspm: ASPM
+        benefits: Fordeler
+        ciem: CIEM
+        container_security: Container Sikkerhet
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: Plattformoversikt
+        pricing: Prising
+        use_cases: Brukstilfeller
+      title: Produkter
+    resources:
+      links:
+        blog: Blogg
+        case_studies: Case Studier
+        documentation: Dokumentasjon
+        security_resources: Sikkerhetsressurser
+      title: Ressurser
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Forbedre din cybersikkerhetsstrategi med Plexicus
+nav:
+  contact: Kontakt
+  developers:
+    api_references: API Referanser
+    api_references_desc: Omfattende API-dokumentasjon
+    documentation: Dokumentasjon
+    documentation_desc: Tekniske guider og referanser
+    github_apps: GitHub Apper
+    github_apps_desc: Integrer Plexicus med dine repositorier
+    plexalyzer_action: Plexalyzer Handling
+    plexalyzer_action_desc: Automatiser sikkerhet i din CI/CD-pipeline
+    title: Utviklere
+  get_started: Kom i Gang
+  languages: Språk
+  login: Logg Inn
+  pricing: Prising
+  product:
+    aspm: ASPM
+    aspm_desc: Applikasjonssikkerhetsstilling Ledelse
+    benefits: Fordeler
+    benefits_desc: Se hvordan Plexicus transformerer sikkerhet
+    ciem: CIEM
+    ciem_desc: Skyinfrastruktur Rettighetsstyring
+    container_security: Container Sikkerhet
+    container_security_desc: Container- og Kubernetes-sikkerhet
+    cspm: CSPM
+    cspm_desc: Sky Sikkerhetsstilling Ledelse
+    cwpp: CWPP
+    cwpp_desc: Sky Arbeidsbelastningsbeskyttelsesplattform
+    explore: Utforsk vårt produkt
+    platform_overview: Plattformoversikt
+    platform_overview_desc: Enhetlig CNAPP-plattform
+    title: Produkt
+    use_cases: Brukstilfeller
+    use_cases_desc: Eksempler på implementering i virkeligheten
+  resources:
+    blog: Blogg
+    blog_desc: Siste nyheter og sikkerhetsinnsikt
+    branding_assets: Merkevareelementer
+    branding_assets_desc: Logoer og merkevareveiledninger
+    changelogs: Endringslogger
+    changelogs_desc: Siste produktoppdateringer
+    comparison_overview: Sammenligningsoversikt
+    comparison_overview_desc: Se hvordan Plexicus sammenlignes med andre sikkerhetsverktøy
+    explore: Utforsk våre ressurser
+    feature_requests: Funksjonsforespørsler
+    feature_requests_desc: Send inn og stem på nye funksjoner
+    integrations: Integrasjoner
+    integrations_desc: Koble dine verktøy og plattformer
+    support: Støtte
+    support_desc: Plexicus gir omfattende støtte for å hjelpe deg med å få mest mulig
+      ut av vår plattform.
+    title: Ressurser
+    youtube_channel: YouTube Kanal
+    youtube_channel_desc: Videotutorials og webinarer
+  solutions:
+    agencies: Byråer
+    agencies_desc: Sikkerhet for digitale og markedsføringsbyråer
+    enterprise: Bedrift
+    enterprise_desc: Omfattende sikkerhet for store organisasjoner
+    explore: Utforsk våre løsninger
+    fintech: FinTech
+    fintech_desc: Sikkerhetsløsninger for finansteknologi
+    government: Regjering
+    government_desc: Sikkerhetsløsninger for offentlige etater
+    group_companies: Konsernselskaper
+    group_companies_desc: Løsninger for konserngrupper og holdingselskaper
+    healthtech: HealthTech
+    healthtech_desc: HIPAA-kompatible sikkerhetsløsninger
+    hrtech: HRTech
+    hrtech_desc: Sikkerhet for menneskelige ressurser teknologi
+    legal_desc: Sikkerhet for juridiske selskaper
+    legaltech: LegalTech
+    manufacturing: Produksjon
+    manufacturing_desc: Sikkerhet for industrielle og IoT-systemer
+    mobile_apps: Mobilapper
+    mobile_apps_desc: Sikkerhet for iOS- og Android-applikasjoner
+    retailtech: RetailTech
+    retailtech_desc: Sikkerhet for e-handel og detaljhandelsplattformer
+    startups: Oppstartsbedrifter
+    startups_desc: Skalerbar sikkerhet for voksende selskaper
+    title: Løsninger

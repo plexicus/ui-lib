@@ -1,0 +1,120 @@
+footer:
+  policies:
+    legal_notice: 法的通知
+    management_policy: 管理方針
+    privacy_policy: プライバシーポリシー
+  readiness: SOC2タイプII準備
+  sections:
+    company:
+      links:
+        about_us: 会社概要
+        careers: 採用情報
+        contact: お問い合わせ
+        privacy_policy: プライバシーポリシー
+      title: 会社
+    products:
+      links:
+        aspm: ASPM
+        benefits: 利点
+        ciem: CIEM
+        container_security: コンテナセキュリティ
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: プラットフォーム概要
+        pricing: 価格
+        use_cases: 使用例
+      title: 製品
+    resources:
+      links:
+        blog: ブログ
+        case_studies: ケーススタディ
+        documentation: ドキュメント
+        security_resources: セキュリティリソース
+      title: リソース
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Plexicusでサイバーセキュリティ戦略を向上させましょう
+nav:
+  contact: お問い合わせ
+  developers:
+    api_references: APIリファレンス
+    api_references_desc: 包括的なAPIドキュメント
+    documentation: ドキュメント
+    documentation_desc: 技術ガイドとリファレンス
+    github_apps: GitHubアプリ
+    github_apps_desc: Plexicusをリポジトリと統合
+    plexalyzer_action: Plexalyzerアクション
+    plexalyzer_action_desc: CI/CDパイプラインでセキュリティを自動化
+    title: 開発者
+  get_started: 始める
+  languages: 言語
+  login: ログイン
+  pricing: 価格
+  product:
+    aspm: ASPM
+    aspm_desc: アプリケーションセキュリティポスチャーマネジメント
+    benefits: 利点
+    benefits_desc: Plexicusがどのようにセキュリティを変革するかを見る
+    ciem: CIEM
+    ciem_desc: クラウドインフラストラクチャエンタイトルメント管理
+    container_security: コンテナセキュリティ
+    container_security_desc: コンテナとKubernetesのセキュリティ
+    cspm: CSPM
+    cspm_desc: クラウドセキュリティポスチャーマネジメント
+    cwpp: CWPP
+    cwpp_desc: クラウドワークロード保護プラットフォーム
+    explore: 製品を探る
+    platform_overview: プラットフォーム概要
+    platform_overview_desc: 統合CNAPPプラットフォーム
+    title: 製品
+    use_cases: 使用例
+    use_cases_desc: 実際の実装例
+  resources:
+    blog: ブログ
+    blog_desc: 最新ニュースとセキュリティの洞察
+    branding_assets: ブランド資産
+    branding_assets_desc: ロゴとブランドガイドライン
+    changelogs: チェンジログ
+    changelogs_desc: 最新の製品更新
+    comparison_overview: 比較概要
+    comparison_overview_desc: Plexicusが他のセキュリティツールとどのように比較されるかを見る
+    explore: リソースを探る
+    feature_requests: 機能リクエスト
+    feature_requests_desc: 新機能の提出と投票
+    integrations: 統合
+    integrations_desc: ツールとプラットフォームを接続
+    support: サポート
+    support_desc: Plexicusはプラットフォームを最大限に活用するための包括的なサポートを提供します。
+    title: リソース
+    youtube_channel: YouTubeチャンネル
+    youtube_channel_desc: ビデオチュートリアルとウェビナー
+  solutions:
+    agencies: エージェンシー
+    agencies_desc: デジタルおよびマーケティングエージェンシー向けのセキュリティ
+    enterprise: エンタープライズ
+    enterprise_desc: 大規模組織向けの包括的なセキュリティ
+    explore: ソリューションを探る
+    fintech: FinTech
+    fintech_desc: 金融技術向けのセキュリティソリューション
+    government: 政府
+    government_desc: 政府機関向けのセキュリティソリューション
+    group_companies: グループ企業
+    group_companies_desc: 企業グループとホールディング向けのソリューション
+    healthtech: HealthTech
+    healthtech_desc: HIPAA準拠のセキュリティソリューション
+    hrtech: HRTech
+    hrtech_desc: 人事技術向けのセキュリティ
+    legal_desc: 法律企業向けのセキュリティ
+    legaltech: LegalTech
+    manufacturing: 製造業
+    manufacturing_desc: 産業およびIoTシステム向けのセキュリティ
+    mobile_apps: モバイルアプリ
+    mobile_apps_desc: iOSおよびAndroidアプリケーション向けのセキュリティ
+    retailtech: RetailTech
+    retailtech_desc: eコマースおよび小売プラットフォーム向けのセキュリティ
+    startups: スタートアップ
+    startups_desc: 成長企業向けのスケーラブルなセキュリティ
+    title: ソリューション

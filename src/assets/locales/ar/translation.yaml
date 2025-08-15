@@ -1,0 +1,120 @@
+footer:
+  policies:
+    legal_notice: إشعار قانوني
+    management_policy: سياسة الإدارة
+    privacy_policy: سياسة الخصوصية
+  readiness: جاهزية SOC2 النوع الثاني
+  sections:
+    company:
+      links:
+        about_us: من نحن
+        careers: وظائف
+        contact: اتصل
+        privacy_policy: سياسة الخصوصية
+      title: الشركة
+    products:
+      links:
+        aspm: ASPM
+        benefits: الفوائد
+        ciem: CIEM
+        container_security: أمن الحاويات
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: نظرة عامة على المنصة
+        pricing: التسعير
+        use_cases: حالات الاستخدام
+      title: المنتجات
+    resources:
+      links:
+        blog: مدونة
+        case_studies: دراسات حالة
+        documentation: وثائق
+        security_resources: موارد الأمان
+      title: الموارد
+  social_media:
+    github: GitHub
+    instagram: إنستغرام
+    linkedin: لينكد إن
+    twitter: تويتر
+  tagline: ارتق باستراتيجية الأمن السيبراني الخاصة بك مع Plexicus
+nav:
+  contact: اتصل
+  developers:
+    api_references: مراجع API
+    api_references_desc: وثائق API شاملة
+    documentation: وثائق
+    documentation_desc: أدلة تقنية ومراجع
+    github_apps: تطبيقات GitHub
+    github_apps_desc: دمج Plexicus مع مستودعاتك
+    plexalyzer_action: إجراء Plexalyzer
+    plexalyzer_action_desc: أتمتة الأمان في خط أنابيب CI/CD الخاص بك
+    title: المطورون
+  get_started: ابدأ
+  languages: اللغات
+  login: تسجيل الدخول
+  pricing: التسعير
+  product:
+    aspm: ASPM
+    aspm_desc: إدارة وضع أمان التطبيقات
+    benefits: الفوائد
+    benefits_desc: شاهد كيف يحول Plexicus الأمان
+    ciem: CIEM
+    ciem_desc: إدارة حقوق البنية التحتية السحابية
+    container_security: أمن الحاويات
+    container_security_desc: أمان الحاويات و Kubernetes
+    cspm: CSPM
+    cspm_desc: إدارة وضع أمان السحابة
+    cwpp: CWPP
+    cwpp_desc: منصة حماية عبء العمل السحابي
+    explore: استكشف منتجنا
+    platform_overview: نظرة عامة على المنصة
+    platform_overview_desc: منصة CNAPP موحدة
+    title: المنتج
+    use_cases: حالات الاستخدام
+    use_cases_desc: أمثلة على التنفيذ في العالم الحقيقي
+  resources:
+    blog: مدونة
+    blog_desc: أحدث الأخبار ورؤى الأمان
+    branding_assets: أصول العلامة التجارية
+    branding_assets_desc: الشعارات وإرشادات العلامة التجارية
+    changelogs: سجلات التغيير
+    changelogs_desc: أحدث تحديثات المنتج
+    comparison_overview: نظرة عامة على المقارنة
+    comparison_overview_desc: شاهد كيف يقارن Plexicus بأدوات الأمان الأخرى
+    explore: استكشف مواردنا
+    feature_requests: طلبات الميزات
+    feature_requests_desc: قدم وصوت على الميزات الجديدة
+    integrations: تكاملات
+    integrations_desc: ربط أدواتك ومنصاتك
+    support: الدعم
+    support_desc: يوفر Plexicus دعمًا شاملاً لمساعدتك في تحقيق أقصى استفادة من منصتنا.
+    title: الموارد
+    youtube_channel: قناة يوتيوب
+    youtube_channel_desc: دروس فيديو وندوات عبر الإنترنت
+  solutions:
+    agencies: الوكالات
+    agencies_desc: الأمان للوكالات الرقمية والتسويقية
+    enterprise: المؤسسات
+    enterprise_desc: أمان شامل للمنظمات الكبيرة
+    explore: استكشف حلولنا
+    fintech: التكنولوجيا المالية
+    fintech_desc: حلول الأمان للتكنولوجيا المالية
+    government: الحكومة
+    government_desc: حلول الأمان للوكالات الحكومية
+    group_companies: شركات المجموعة
+    group_companies_desc: حلول للمجموعات والشركات القابضة
+    healthtech: التكنولوجيا الصحية
+    healthtech_desc: حلول الأمان المتوافقة مع HIPAA
+    hrtech: التكنولوجيا البشرية
+    hrtech_desc: الأمان لتكنولوجيا الموارد البشرية
+    legal_desc: الأمان للشركات القانونية
+    legaltech: التكنولوجيا القانونية
+    manufacturing: التصنيع
+    manufacturing_desc: الأمان للأنظمة الصناعية وإنترنت الأشياء
+    mobile_apps: التطبيقات المحمولة
+    mobile_apps_desc: الأمان لتطبيقات iOS و Android
+    retailtech: التكنولوجيا التجارية
+    retailtech_desc: الأمان لمنصات التجارة الإلكترونية والتجزئة
+    startups: الشركات الناشئة
+    startups_desc: أمان قابل للتوسع للشركات النامية
+    title: الحلول

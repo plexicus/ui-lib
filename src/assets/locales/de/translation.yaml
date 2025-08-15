@@ -1,0 +1,122 @@
+footer:
+  policies:
+    legal_notice: Impressum
+    management_policy: Managementrichtlinie
+    privacy_policy: Datenschutzrichtlinie
+  readiness: SOC2 Typ II Bereitschaft
+  sections:
+    company:
+      links:
+        about_us: Über uns
+        careers: Karriere
+        contact: Kontakt
+        privacy_policy: Datenschutzrichtlinie
+      title: Unternehmen
+    products:
+      links:
+        aspm: ASPM
+        benefits: Vorteile
+        ciem: CIEM
+        container_security: Containersicherheit
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: Plattformübersicht
+        pricing: Preisgestaltung
+        use_cases: Anwendungsfälle
+      title: Produkte
+    resources:
+      links:
+        blog: Blog
+        case_studies: Fallstudien
+        documentation: Dokumentation
+        security_resources: Sicherheitsressourcen
+      title: Ressourcen
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Erhöhen Sie Ihre Cybersicherheitsstrategie mit Plexicus
+nav:
+  contact: Kontakt
+  developers:
+    api_references: API-Referenzen
+    api_references_desc: Umfassende API-Dokumentation
+    documentation: Dokumentation
+    documentation_desc: Technische Anleitungen und Referenzen
+    github_apps: GitHub-Apps
+    github_apps_desc: Integrieren Sie Plexicus in Ihre Repositories
+    plexalyzer_action: Plexalyzer-Aktion
+    plexalyzer_action_desc: Automatisieren Sie Sicherheit in Ihrer CI/CD-Pipeline
+    title: Entwickler
+  get_started: Erste Schritte
+  languages: Sprachen
+  login: Anmelden
+  pricing: Preisgestaltung
+  product:
+    aspm: ASPM
+    aspm_desc: Verwaltung der Anwendungssicherheitslage
+    benefits: Vorteile
+    benefits_desc: Erfahren Sie, wie Plexicus Sicherheit transformiert
+    ciem: CIEM
+    ciem_desc: Verwaltung von Cloud-Infrastruktur-Berechtigungen
+    container_security: Containersicherheit
+    container_security_desc: Sicherheit für Container und Kubernetes
+    cspm: CSPM
+    cspm_desc: Verwaltung der Cloud-Sicherheitslage
+    cwpp: CWPP
+    cwpp_desc: Cloud-Workload-Schutzplattform
+    explore: Entdecken Sie unser Produkt
+    platform_overview: Plattformübersicht
+    platform_overview_desc: Einheitliche CNAPP-Plattform
+    title: Produkt
+    use_cases: Anwendungsfälle
+    use_cases_desc: Beispiele aus der Praxis
+  resources:
+    blog: Blog
+    blog_desc: Neueste Nachrichten und Sicherheitseinblicke
+    branding_assets: Markenressourcen
+    branding_assets_desc: Logos und Markenrichtlinien
+    changelogs: Änderungsprotokolle
+    changelogs_desc: Neueste Produktaktualisierungen
+    comparison_overview: Vergleichsübersicht
+    comparison_overview_desc: Sehen Sie, wie Plexicus im Vergleich zu anderen Sicherheitstools
+      abschneidet
+    explore: Entdecken Sie unsere Ressourcen
+    feature_requests: Funktionsanfragen
+    feature_requests_desc: Neue Funktionen einreichen und abstimmen
+    integrations: Integrationen
+    integrations_desc: Verbinden Sie Ihre Tools und Plattformen
+    support: Unterstützung
+    support_desc: Plexicus bietet umfassende Unterstützung, um Ihnen zu helfen, das
+      Beste aus unserer Plattform herauszuholen.
+    title: Ressourcen
+    youtube_channel: YouTube-Kanal
+    youtube_channel_desc: Video-Tutorials und Webinare
+  solutions:
+    agencies: Agenturen
+    agencies_desc: Sicherheit für digitale und Marketingagenturen
+    enterprise: Unternehmen
+    enterprise_desc: Umfassende Sicherheit für große Organisationen
+    explore: Entdecken Sie unsere Lösungen
+    fintech: FinTech
+    fintech_desc: Sicherheitslösungen für Finanztechnologie
+    government: Regierung
+    government_desc: Sicherheitslösungen für Regierungsbehörden
+    group_companies: Unternehmensgruppen
+    group_companies_desc: Lösungen für Unternehmensgruppen und Holdings
+    healthtech: HealthTech
+    healthtech_desc: HIPAA-konforme Sicherheitslösungen
+    hrtech: HRTech
+    hrtech_desc: Sicherheit für Personaltechnologie
+    legal_desc: Sicherheit für Rechtsunternehmen
+    legaltech: LegalTech
+    manufacturing: Fertigung
+    manufacturing_desc: Sicherheit für industrielle und IoT-Systeme
+    mobile_apps: Mobile Apps
+    mobile_apps_desc: Sicherheit für iOS- und Android-Anwendungen
+    retailtech: RetailTech
+    retailtech_desc: Sicherheit für E-Commerce- und Einzelhandelsplattformen
+    startups: Startups
+    startups_desc: Skalierbare Sicherheit für wachsende Unternehmen
+    title: Lösungen
