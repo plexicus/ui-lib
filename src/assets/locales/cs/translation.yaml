@@ -1,0 +1,122 @@
+footer:
+  policies:
+    legal_notice: Právní oznámení
+    management_policy: Politika řízení
+    privacy_policy: Zásady ochrany osobních údajů
+  readiness: SOC2 Typ II Připravenost
+  sections:
+    company:
+      links:
+        about_us: O nás
+        careers: Kariéra
+        contact: Kontakt
+        privacy_policy: Zásady ochrany osobních údajů
+      title: Společnost
+    products:
+      links:
+        aspm: ASPM
+        benefits: Výhody
+        ciem: CIEM
+        container_security: Bezpečnost kontejnerů
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: Přehled platformy
+        pricing: Ceny
+        use_cases: Případy použití
+      title: Produkty
+    resources:
+      links:
+        blog: Blog
+        case_studies: Případové studie
+        documentation: Dokumentace
+        security_resources: Bezpečnostní zdroje
+      title: Zdroje
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Zvyšte svou strategii kybernetické bezpečnosti s Plexicus
+nav:
+  contact: Kontakt
+  developers:
+    api_references: API Reference
+    api_references_desc: Komplexní dokumentace API
+    documentation: Dokumentace
+    documentation_desc: Technické příručky a reference
+    github_apps: GitHub Aplikace
+    github_apps_desc: Integrujte Plexicus s vašimi repozitáři
+    plexalyzer_action: Plexalyzer Akce
+    plexalyzer_action_desc: Automatizujte bezpečnost ve vašem CI/CD pipeline
+    title: Vývojáři
+  get_started: Začít
+  languages: Jazyky
+  login: Přihlásit se
+  pricing: Ceny
+  product:
+    aspm: ASPM
+    aspm_desc: Řízení bezpečnostního postoje aplikací
+    benefits: Výhody
+    benefits_desc: Podívejte se, jak Plexicus transformuje bezpečnost
+    ciem: CIEM
+    ciem_desc: Řízení oprávnění cloudové infrastruktury
+    container_security: Bezpečnost kontejnerů
+    container_security_desc: Bezpečnost kontejnerů a Kubernetes
+    cspm: CSPM
+    cspm_desc: Řízení bezpečnostního postoje cloudu
+    cwpp: CWPP
+    cwpp_desc: Platforma ochrany cloudových pracovních zátěží
+    explore: Prozkoumejte náš produkt
+    platform_overview: Přehled platformy
+    platform_overview_desc: Jednotná CNAPP platforma
+    title: Produkt
+    use_cases: Případy použití
+    use_cases_desc: Příklady implementace v reálném světě
+  resources:
+    blog: Blog
+    blog_desc: Nejnovější zprávy a bezpečnostní poznatky
+    branding_assets: Brandingové materiály
+    branding_assets_desc: Loga a pokyny k značce
+    changelogs: Změny
+    changelogs_desc: Nejnovější aktualizace produktů
+    comparison_overview: Přehled srovnání
+    comparison_overview_desc: Podívejte se, jak Plexicus srovnává s jinými bezpečnostními
+      nástroji
+    explore: Prozkoumejte naše zdroje
+    feature_requests: Požadavky na funkce
+    feature_requests_desc: Podávejte a hlasujte o nových funkcích
+    integrations: Integrace
+    integrations_desc: Připojte své nástroje a platformy
+    support: Podpora
+    support_desc: Plexicus poskytuje komplexní podporu, aby vám pomohl co nejlépe
+      využít naši platformu.
+    title: Zdroje
+    youtube_channel: YouTube Kanál
+    youtube_channel_desc: Video tutoriály a webináře
+  solutions:
+    agencies: Agentury
+    agencies_desc: Bezpečnost pro digitální a marketingové agentury
+    enterprise: Podnik
+    enterprise_desc: Komplexní bezpečnost pro velké organizace
+    explore: Prozkoumejte naše řešení
+    fintech: FinTech
+    fintech_desc: Bezpečnostní řešení pro finanční technologie
+    government: Vláda
+    government_desc: Bezpečnostní řešení pro vládní agentury
+    group_companies: Skupinové společnosti
+    group_companies_desc: Řešení pro korporátní skupiny a holdingy
+    healthtech: HealthTech
+    healthtech_desc: Bezpečnostní řešení v souladu s HIPAA
+    hrtech: HRTech
+    hrtech_desc: Bezpečnost pro technologie lidských zdrojů
+    legal_desc: Bezpečnost pro právní společnosti
+    legaltech: LegalTech
+    manufacturing: Výroba
+    manufacturing_desc: Bezpečnost pro průmyslové a IoT systémy
+    mobile_apps: Mobilní aplikace
+    mobile_apps_desc: Bezpečnost pro iOS a Android aplikace
+    retailtech: RetailTech
+    retailtech_desc: Bezpečnost pro e-commerce a maloobchodní platformy
+    startups: Startupy
+    startups_desc: Škálovatelná bezpečnost pro rostoucí společnosti
+    title: Řešení

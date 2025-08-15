@@ -1,0 +1,120 @@
+footer:
+  policies:
+    legal_notice: Laillinen ilmoitus
+    management_policy: Hallintapolitiikka
+    privacy_policy: Tietosuojakäytäntö
+  readiness: SOC2 Type II Valmius
+  sections:
+    company:
+      links:
+        about_us: Meistä
+        careers: Urat
+        contact: Yhteystiedot
+        privacy_policy: Tietosuojakäytäntö
+      title: Yritys
+    products:
+      links:
+        aspm: ASPM
+        benefits: Hyödyt
+        ciem: CIEM
+        container_security: Konttiturvallisuus
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: Alustan yleiskatsaus
+        pricing: Hinnoittelu
+        use_cases: Käyttötapaukset
+      title: Tuotteet
+    resources:
+      links:
+        blog: Blogi
+        case_studies: Case-tutkimukset
+        documentation: Dokumentaatio
+        security_resources: Turvallisuusresurssit
+      title: Resurssit
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Nosta kyberturvallisuusstrategiasi Plexicuksen avulla
+nav:
+  contact: Yhteystiedot
+  developers:
+    api_references: API-viitteet
+    api_references_desc: Kattava API-dokumentaatio
+    documentation: Dokumentaatio
+    documentation_desc: Teknisiä oppaita ja viitteitä
+    github_apps: GitHub-sovellukset
+    github_apps_desc: Integroi Plexicus repositorioihisi
+    plexalyzer_action: Plexalyzer-toiminto
+    plexalyzer_action_desc: Automatisoi turvallisuus CI/CD-putkessasi
+    title: Kehittäjät
+  get_started: Aloita
+  languages: Kielet
+  login: Kirjaudu sisään
+  pricing: Hinnoittelu
+  product:
+    aspm: ASPM
+    aspm_desc: Sovellusturvallisuuden hallinta
+    benefits: Hyödyt
+    benefits_desc: Katso, miten Plexicus muuttaa turvallisuutta
+    ciem: CIEM
+    ciem_desc: Pilvi-infrastruktuurin oikeuksien hallinta
+    container_security: Konttiturvallisuus
+    container_security_desc: Konttien ja Kubernetesin turvallisuus
+    cspm: CSPM
+    cspm_desc: Pilviturvallisuuden hallinta
+    cwpp: CWPP
+    cwpp_desc: Pilvityökuormien suojausalusta
+    explore: Tutustu tuotteeseemme
+    platform_overview: Alustan yleiskatsaus
+    platform_overview_desc: Yhtenäinen CNAPP-alusta
+    title: Tuote
+    use_cases: Käyttötapaukset
+    use_cases_desc: Todellisia toteutusesimerkkejä
+  resources:
+    blog: Blogi
+    blog_desc: Viimeisimmät uutiset ja turvallisuusnäkemykset
+    branding_assets: Brändäysmateriaalit
+    branding_assets_desc: Logot ja brändiohjeet
+    changelogs: Muutoslokit
+    changelogs_desc: Viimeisimmät tuoteuutiset
+    comparison_overview: Vertailun yleiskatsaus
+    comparison_overview_desc: Katso, miten Plexicus vertautuu muihin turvallisuustyökaluihin
+    explore: Tutustu resursseihimme
+    feature_requests: Ominaisuuspyynnöt
+    feature_requests_desc: Lähetä ja äänestä uusia ominaisuuksia
+    integrations: Integraatiot
+    integrations_desc: Yhdistä työkalusi ja alustasi
+    support: Tuki
+    support_desc: Plexicus tarjoaa kattavaa tukea, jotta saat kaiken irti alustastamme.
+    title: Resurssit
+    youtube_channel: YouTube-kanava
+    youtube_channel_desc: Videotutoriaalit ja webinaarit
+  solutions:
+    agencies: Toimistot
+    agencies_desc: Turvallisuus digitaalisille ja markkinointitoimistoille
+    enterprise: Yritykset
+    enterprise_desc: Kattava turvallisuus suurille organisaatioille
+    explore: Tutustu ratkaisuihimme
+    fintech: FinTech
+    fintech_desc: Turvallisuusratkaisut finanssiteknologialle
+    government: Hallitus
+    government_desc: Turvallisuusratkaisut valtion virastoille
+    group_companies: Yritysryhmät
+    group_companies_desc: Ratkaisut yritysryhmille ja holding-yhtiöille
+    healthtech: HealthTech
+    healthtech_desc: HIPAA-yhteensopivat turvallisuusratkaisut
+    hrtech: HRTech
+    hrtech_desc: Turvallisuus henkilöstöhallinnon teknologialle
+    legal_desc: Turvallisuus lakialan yrityksille
+    legaltech: LegalTech
+    manufacturing: Valmistus
+    manufacturing_desc: Turvallisuus teollisuus- ja IoT-järjestelmille
+    mobile_apps: Mobiilisovellukset
+    mobile_apps_desc: Turvallisuus iOS- ja Android-sovelluksille
+    retailtech: RetailTech
+    retailtech_desc: Turvallisuus verkkokauppa- ja vähittäiskauppa-alustoille
+    startups: Startupit
+    startups_desc: Skaalautuva turvallisuus kasvaville yrityksille
+    title: Ratkaisut

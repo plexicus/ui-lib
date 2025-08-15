@@ -1,0 +1,121 @@
+footer:
+  policies:
+    legal_notice: Juridische Kennisgeving
+    management_policy: Beleid van het Management
+    privacy_policy: Privacybeleid
+  readiness: SOC2 Type II Gereedheid
+  sections:
+    company:
+      links:
+        about_us: Over Ons
+        careers: Carrières
+        contact: Contact
+        privacy_policy: Privacybeleid
+      title: Bedrijf
+    products:
+      links:
+        aspm: ASPM
+        benefits: Voordelen
+        ciem: CIEM
+        container_security: Containerbeveiliging
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: Platformoverzicht
+        pricing: Prijzen
+        use_cases: Gebruiksscenario's
+      title: Producten
+    resources:
+      links:
+        blog: Blog
+        case_studies: Casestudy's
+        documentation: Documentatie
+        security_resources: Beveiligingsbronnen
+      title: Bronnen
+  social_media:
+    github: GitHub
+    instagram: Instagram
+    linkedin: LinkedIn
+    twitter: Twitter
+  tagline: Verhoog uw cybersecuritystrategie met Plexicus
+nav:
+  contact: Contact
+  developers:
+    api_references: API-referenties
+    api_references_desc: Uitgebreide API-documentatie
+    documentation: Documentatie
+    documentation_desc: Technische handleidingen en referenties
+    github_apps: GitHub-apps
+    github_apps_desc: Integreer Plexicus met uw repositories
+    plexalyzer_action: Plexalyzer-actie
+    plexalyzer_action_desc: Automatiseer beveiliging in uw CI/CD-pijplijn
+    title: Ontwikkelaars
+  get_started: Aan de Slag
+  languages: Talen
+  login: Inloggen
+  pricing: Prijzen
+  product:
+    aspm: ASPM
+    aspm_desc: Beheer van Applicatiebeveiligingshouding
+    benefits: Voordelen
+    benefits_desc: Zie hoe Plexicus beveiliging transformeert
+    ciem: CIEM
+    ciem_desc: Beheer van Cloudinfrastructuurtoestemmingen
+    container_security: Containerbeveiliging
+    container_security_desc: Beveiliging van containers en Kubernetes
+    cspm: CSPM
+    cspm_desc: Beheer van Cloudbeveiligingshouding
+    cwpp: CWPP
+    cwpp_desc: Cloud Workload Beschermingsplatform
+    explore: Verken ons product
+    platform_overview: Platformoverzicht
+    platform_overview_desc: Geïntegreerd CNAPP-platform
+    title: Product
+    use_cases: Gebruiksscenario's
+    use_cases_desc: Voorbeelden van implementatie in de praktijk
+  resources:
+    blog: Blog
+    blog_desc: Laatste nieuws en beveiligingsinzichten
+    branding_assets: Merkmiddelen
+    branding_assets_desc: Logo's en merkrichtlijnen
+    changelogs: Wijzigingslogboeken
+    changelogs_desc: Laatste productupdates
+    comparison_overview: Vergelijkingsoverzicht
+    comparison_overview_desc: Zie hoe Plexicus zich verhoudt tot andere beveiligingstools
+    explore: Verken onze bronnen
+    feature_requests: Functieaanvragen
+    feature_requests_desc: Dien nieuwe functies in en stem erop
+    integrations: Integraties
+    integrations_desc: Verbind uw tools en platforms
+    support: Ondersteuning
+    support_desc: Plexicus biedt uitgebreide ondersteuning om u te helpen het meeste
+      uit ons platform te halen.
+    title: Bronnen
+    youtube_channel: YouTube-kanaal
+    youtube_channel_desc: Videotutorials en webinars
+  solutions:
+    agencies: Bureaus
+    agencies_desc: Beveiliging voor digitale en marketingbureaus
+    enterprise: Onderneming
+    enterprise_desc: Uitgebreide beveiliging voor grote organisaties
+    explore: Verken onze oplossingen
+    fintech: FinTech
+    fintech_desc: Beveiligingsoplossingen voor financiële technologie
+    government: Overheid
+    government_desc: Beveiligingsoplossingen voor overheidsinstanties
+    group_companies: Groepsbedrijven
+    group_companies_desc: Oplossingen voor bedrijfs- en holdinggroepen
+    healthtech: HealthTech
+    healthtech_desc: HIPAA-conforme beveiligingsoplossingen
+    hrtech: HRTech
+    hrtech_desc: Beveiliging voor technologie op het gebied van personeelszaken
+    legal_desc: Beveiliging voor juridische bedrijven
+    legaltech: LegalTech
+    manufacturing: Productie
+    manufacturing_desc: Beveiliging voor industriële en IoT-systemen
+    mobile_apps: Mobiele Apps
+    mobile_apps_desc: Beveiliging voor iOS- en Android-applicaties
+    retailtech: RetailTech
+    retailtech_desc: Beveiliging voor e-commerce en retailplatforms
+    startups: Startups
+    startups_desc: Schaalbare beveiliging voor groeiende bedrijven
+    title: Oplossingen
