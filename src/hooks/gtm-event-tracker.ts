@@ -25,11 +25,6 @@ export const useTrackClick = () => {
           event_label: eventLabel,
           ...(value !== undefined && { value: value }), // Conditionally add value
         });
-        console.log(`Google Analytics event sent: ${eventName}`, {
-          event_category: eventCategory,
-          event_label: eventLabel,
-          value: value,
-        });
       } else {
         console.warn('gtag is not defined. Google Analytics script might not be loaded.');
       }

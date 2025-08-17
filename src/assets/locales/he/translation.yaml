@@ -1,0 +1,121 @@
+footer:
+  policies:
+    legal_notice: הודעה משפטית
+    management_policy: מדיניות ניהול
+    privacy_policy: מדיניות פרטיות
+  readiness: מוכנות SOC2 סוג II
+  sections:
+    company:
+      links:
+        about_us: אודותינו
+        careers: קריירה
+        contact: צור קשר
+        privacy_policy: מדיניות פרטיות
+      title: חברה
+    products:
+      links:
+        aspm: ASPM
+        benefits: יתרונות
+        ciem: CIEM
+        container_security: אבטחת מכולות
+        cspm: CSPM
+        cwpp: CWPP
+        platform_overview: סקירת פלטפורמה
+        pricing: תמחור
+        use_cases: מקרי שימוש
+      title: מוצרים
+    resources:
+      links:
+        blog: בלוג
+        case_studies: מחקרי מקרה
+        documentation: תיעוד
+        security_resources: משאבי אבטחה
+      title: משאבים
+  social_media:
+    github: GitHub
+    instagram: אינסטגרם
+    linkedin: LinkedIn
+    twitter: טוויטר
+  tagline: שפר את אסטרטגיית הסייבר שלך עם Plexicus
+nav:
+  contact: צור קשר
+  developers:
+    api_references: הפניות API
+    api_references_desc: תיעוד API מקיף
+    documentation: תיעוד
+    documentation_desc: מדריכים טכניים והפניות
+    github_apps: אפליקציות GitHub
+    github_apps_desc: שלב את Plexicus עם המאגר שלך
+    plexalyzer_action: פעולה Plexalyzer
+    plexalyzer_action_desc: אוטומציה של אבטחה בצנרת CI/CD שלך
+    title: מפתחים
+  get_started: התחל
+  languages: שפות
+  login: התחברות
+  pricing: תמחור
+  product:
+    aspm: ASPM
+    aspm_desc: ניהול מצב אבטחת יישומים
+    benefits: יתרונות
+    benefits_desc: ראה כיצד Plexicus משנה את האבטחה
+    ciem: CIEM
+    ciem_desc: ניהול זכויות תשתית ענן
+    container_security: אבטחת מכולות
+    container_security_desc: אבטחת מכולות וקוברנטיס
+    cspm: CSPM
+    cspm_desc: ניהול מצב אבטחת ענן
+    cwpp: CWPP
+    cwpp_desc: פלטפורמת הגנת עומסי עבודה בענן
+    explore: חקור את המוצר שלנו
+    platform_overview: סקירת פלטפורמה
+    platform_overview_desc: פלטפורמת CNAPP מאוחדת
+    title: מוצר
+    use_cases: מקרי שימוש
+    use_cases_desc: דוגמאות ליישום בעולם האמיתי
+  resources:
+    blog: בלוג
+    blog_desc: חדשות אחרונות ותובנות אבטחה
+    branding_assets: נכסי מותג
+    branding_assets_desc: לוגואים והנחיות מותג
+    changelogs: יומני שינויים
+    changelogs_desc: עדכוני מוצר אחרונים
+    comparison_overview: סקירת השוואה
+    comparison_overview_desc: ראה כיצד Plexicus משווה לכלי אבטחה אחרים
+    explore: חקור את המשאבים שלנו
+    feature_requests: בקשות תכונה
+    feature_requests_desc: הגש והצביע על תכונות חדשות
+    integrations: אינטגרציות
+    integrations_desc: חבר את הכלים והפלטפורמות שלך
+    support: תמיכה
+    support_desc: Plexicus מספקת תמיכה מקיפה כדי לעזור לך להפיק את המירב מהפלטפורמה
+      שלנו.
+    title: משאבים
+    youtube_channel: ערוץ YouTube
+    youtube_channel_desc: מדריכי וידאו וסמינרים מקוונים
+  solutions:
+    agencies: סוכנויות
+    agencies_desc: אבטחה לסוכנויות דיגיטל ושיווק
+    enterprise: ארגונים
+    enterprise_desc: אבטחה מקיפה לארגונים גדולים
+    explore: חקור את הפתרונות שלנו
+    fintech: FinTech
+    fintech_desc: פתרונות אבטחה לטכנולוגיה פיננסית
+    government: ממשלה
+    government_desc: פתרונות אבטחה לסוכנויות ממשלתיות
+    group_companies: חברות קבוצתיות
+    group_companies_desc: פתרונות לקבוצות תאגידיות והחזקות
+    healthtech: HealthTech
+    healthtech_desc: פתרונות אבטחה תואמי HIPAA
+    hrtech: HRTech
+    hrtech_desc: אבטחה לטכנולוגיית משאבי אנוש
+    legal_desc: אבטחה לחברות משפטיות
+    legaltech: LegalTech
+    manufacturing: ייצור
+    manufacturing_desc: אבטחה למערכות תעשייתיות ו-IoT
+    mobile_apps: אפליקציות ניידות
+    mobile_apps_desc: אבטחה לאפליקציות iOS ו-Android
+    retailtech: RetailTech
+    retailtech_desc: אבטחה לפלטפורמות מסחר אלקטרוני וקמעונאות
+    startups: סטארטאפים
+    startups_desc: אבטחה ניתנת להרחבה לחברות מתפתחות
+    title: פתרונות
