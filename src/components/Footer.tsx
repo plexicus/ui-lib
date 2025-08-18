@@ -98,7 +98,7 @@ export function FooterPlexicus({ lang: currentLang, fullSiteUrl = 'http://localh
       title: t('footer.sections.resources.title'),
       items: [
         {
-          link: `${BLOG_URL}`,
+          link: `${BLOG_URL}${lang}`,
           text: t('footer.sections.resources.links.blog')
         },
         {
