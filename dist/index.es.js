@@ -7999,7 +7999,7 @@ const an = ({
         {
           title: u("nav.resources.blog"),
           description: u("nav.resources.blog_desc"),
-          href: D,
+          href: `${D}${s}`,
           icon: /* @__PURE__ */ n.jsxs(
             "svg",
             {
@@ -8966,7 +8966,7 @@ function on({ lang: i, fullSiteUrl: e = "http://localhost:8000", fullBlogUrl: t 
       title: o("footer.sections.resources.title"),
       items: [
         {
-          link: `${d}`,
+          link: `${d}${r}`,
           text: o("footer.sections.resources.links.blog")
         },
         {
