@@ -699,7 +699,7 @@ export const NavbarPlexicus = ({
         {
           title: t("nav.resources.blog"),
           description: t("nav.resources.blog_desc"),
-          href: BLOG_URL,
+          href: `${BLOG_URL}${lang}`,
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
