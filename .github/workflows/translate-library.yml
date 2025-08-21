@@ -42,9 +42,9 @@ jobs:
         run: |
           # List files touched in the last commit, keep only *.yml/yaml
           # and exclude anything already in blog
-          echo "matrix=$(git diff --name-only HEAD^ | \
+          echo "matrix=$(git diff --name-only HEAD^..HEAD | \
             grep -E 'src/assets/locales/.*\.(yml|yaml)$' | \
-            grep -vE 'src/assets/locales/(de|fr|ja|es|it|nl|sv|no|da|fi|pt|zh|ar|he|tr|pl|cs|id|en)/' | \
+            grep -vE 'src/assets/locales/(de|fr|ja|es|it|nl|sv|no|da|fi|pt|zh|ar|he|tr|pl|cs|id)/' | \
             jq -Rsc 'split("\n")[:-1]')" >> "$GITHUB_OUTPUT"
 
       - name: Exit if there is nothing to translate
@@ -65,7 +65,7 @@ jobs:
       - name: Run translator script
         if: ${{ steps.changed.outputs.matrix != '[]' }}
         run: |
-          python scripts/translate_blog.py '${{ steps.changed.outputs.matrix }}'
+          python scripts/translate-library.py '${{ steps.changed.outputs.matrix }}'
       - name: Commit and Push Built Files
         if: ${{ steps.changed.outputs.matrix != '[]' }}
         uses: stefanzweifel/git-auto-commit-action@v5 # Use a stable version of the action

@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import flattenYamlObject from '../../lib/flattenObject';
 
 
-const dictionaries: Record<string, any> = {};
+const dictionaries: Record<string, string|any> = {};
 const yamlFiles = import.meta.glob(['./**/*.yml', './**/*.yaml'], { eager: true });
 
 for (const path in yamlFiles) {
