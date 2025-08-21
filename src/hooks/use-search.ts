@@ -62,8 +62,8 @@ export function useSearch(options: UseSearchOptions) {
       const allResults: SearchResult[] = []
 
       const [webResponse, blogResponse] = await Promise.allSettled([
-        fetch(`${webUrl}/api/${currentLang}/pages.json`).then((res) => res.json()) as Promise<SearchResponse>,
-        fetch(`${blogUrl}/api/${currentLang}/pages.json`).then((res) => res.json()) as Promise<SearchResponse>,
+        fetch(`${webUrl}/api/${currentLang}/pages.json?t=${Date.now()}`).then((res) => res.json()) as Promise<SearchResponse>,
+        fetch(`${blogUrl}/api/${currentLang}/pages.json?t=${Date.now()}`).then((res) => res.json()) as Promise<SearchResponse>,
       ])
 
       if (webResponse.status === "fulfilled") {
@@ -78,8 +78,8 @@ export function useSearch(options: UseSearchOptions) {
 
       if (allResults.length < 3 && currentLang !== "en") {
         const [webResponseEn, blogResponseEn] = await Promise.allSettled([
-          fetch(`${webUrl}/api/en/pages.json`).then((res) => res.json()),
-          fetch(`${blogUrl}/api/en/pages.json`).then((res) => res.json()),
+          fetch(`${webUrl}/api/en/pages.json?t=${Date.now()}`).then((res) => res.json()),
+          fetch(`${blogUrl}/api/en/pages.json?t=${Date.now()}`).then((res) => res.json()),
         ])
 
         if (webResponseEn.status === "fulfilled") {
