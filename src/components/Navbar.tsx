@@ -36,11 +36,24 @@ export const NavbarPlexicus = ({
   fullSiteUrl = "http://localhost:8000",
   fullBlogUrl = "http://localhost:9000",
 }: NavbarProps) => {
-  const [lang, setLang] = useState("/")
-  const [menuOpen, setMenuOpen] = useState(false)
-  const [activeMenu, setActiveMenu] = useState<string | null>(null)
-  const [searchBarExpanded, setSearchBarExpanded] = useState(false) 
-  const menuTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+  const [lang, setLang] = useState("/");
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [activeMenu, setActiveMenu] = useState<string | null>(null);
+  const [searchBarExpanded, setSearchBarExpanded] = useState(false);
+  const [openMenuItems, setOpenMenuItems] = useState<string[]>([]);
+  const menuTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Function to toggle menu item and close others
+  const toggleMenuItem = (menuKey: string) => {
+    setOpenMenuItems((prevOpenMenuItems) => {
+      if (prevOpenMenuItems.includes(menuKey)) {
+        return prevOpenMenuItems.filter((item) => item !== menuKey);
+      } else {
+        // Close all other menus and open this one
+        return [menuKey];
+      }
+    });
+  };
   const [mounted, setMounted] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
 
@@ -1549,52 +1562,98 @@ export const NavbarPlexicus = ({
           style={{ top: "64px", height: "calc(100vh - 64px)", overflow: "auto" }}
         >
           <div className="overflow-y-auto h-full p-4 pb-20">
-            <SearchDrawer currentLang={currentLang} webUrl={API_URL_WEB} blogUrl={API_URL_BLOG} isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+            <SearchDrawer
+              currentLang={currentLang}
+              webUrl={API_URL_WEB}
+              blogUrl={API_URL_BLOG}
+              isOpen={searchOpen}
+              onClose={() => setSearchOpen(false)}
+            />
             <div className="space-y-4">
-              {Object.entries(menus).map(([key, menu]) => (
-                <div key={key} className="space-y-2">
-                  <h3 className="font-semibold">{menu.title}</h3>
-                  <div className="grid grid-cols-1 gap-2">
-                    {menu.items.map((item, index) => (
-                      <Link
-                        key={index}
-                        href={item.href}
-                        className="flex items-center p-2 rounded-md bg-gray-50 hover:bg-gray-100"
-                        onClick={() => setMenuOpen(false)}
+              {Object.entries(menus).map(([key, menu]) => {
+                const isOpen = openMenuItems.includes(key);
+                return (
+                  <div key={key} className="space-y-2 bg-[#8220ff]/10 px-2 rounded-md">
+                    <button
+                      onClick={() => toggleMenuItem(key)}
+                      className="flex items-center justify-between w-full py-2"
+                    >
+                      <h3 className="font-semibold">{menu.title}</h3>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className={`transition-transform duration-200 ${isOpen ? "transform rotate-180" : ""}`}
                       >
-                        <div className="w-8 h-8 bg-primary/10 rounded-md mr-2 flex items-center justify-center">
-                          {React.cloneElement(item.icon as React.ReactElement<React.SVGProps<SVGSVGElement>>, { width: 16, height: 16 })}
-                        </div>
-                        <span className="text-sm">{item.title}</span>
-                      </Link>
-                    ))}
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
+                    </button>
+                    {isOpen && (
+                      <div className="grid grid-cols-1 gap-2 py-2">
+                        {menu.items.map((item, index) => (
+                          <Link
+                            key={index}
+                            href={item.href}
+                            className="flex items-center p-2 rounded-md bg-gray-50 hover:bg-gray-100"
+                            onClick={() => setMenuOpen(false)}
+                          >
+                            <div className="w-8 h-8 bg-primary/10 rounded-md mr-2 flex items-center justify-center">
+                              {React.cloneElement(item.icon as React.ReactElement<React.SVGProps<SVGSVGElement>>, { width: 16, height: 16 })}
+                            </div>
+                            <span className="text-sm">{item.title}</span>
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                   </div>
-                </div>
-              ))}
+                );
+              })}
 
-              <Link
-                href={`${WEB_URL}${lang}pricing`}
-                className="block py-2 text-sm font-medium"
-                onClick={() => setMenuOpen(false)}
-              >
-                {t("nav.pricing")}
-              </Link>
-              <Link
-                href={`${WEB_URL}${lang}contact`}
-                className="block py-2 text-sm font-medium"
-                onClick={() => setMenuOpen(false)}
-              >
-                {t("nav.contact")}
-              </Link>
-              <div className="pt-4 border-t border-gray-100">
-                <Button className="w-full bg-gradient-primary" onClick={() => setMenuOpen(false)}>
-                  Get Started
-                </Button>
-              </div>
+
+            <div className="grid grid-cols-2 gap-2">
+                <Link href={`${APP_URL}/register`} className="flex items-center justify-center">
+                  <Button className="text-white w-full bg-[#8220ff] font-medium px-4 rounded-md shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 border border-white/30 whitespace-nowrap ">
+                    {t("nav.get_started")}
+                  </Button>
+                </Link>
+                <Link
+                  href={`${APP_URL}/login`}
+                  className="text-sm font-medium transition-colors whitespace-nowrap flex items-center justify-center"
+                >
+                  <Button className="bg-gray-100 w-full text-[#8220ff] font-medium px-4 rounded-md shadow-md hover:shadow-xl hover:bg-purple-200 hover:scale-105 transition-all duration-300 border border-white/30 whitespace-nowrap ">
+                    {t("nav.login")}
+                  </Button>
+                  
+                </Link>
+                <Link
+                  href={`${WEB_URL}${lang}pricing`}
+                  className=" py-2 text-sm font-medium flex items-center justify-center"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  <Button className="bg-gray-100 w-full text-[#8220ff] font-medium px-4 rounded-md shadow-md hover:shadow-xl hover:bg-purple-200 hover:scale-105 transition-all duration-300 border border-white/30 whitespace-nowrap ">
+                    {t("nav.pricing")}
+                  </Button>
+                </Link>
+                <Link
+                  href={`${WEB_URL}${lang}contact`}
+                  className=" py-2 text-sm font-medium flex items-center justify-center"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  <Button className="bg-gray-100 w-full text-[#8220ff] font-medium px-4 rounded-md shadow-md hover:shadow-xl hover:bg-purple-200 hover:scale-105 transition-all duration-300 border border-white/30 whitespace-nowrap ">
+                    {t("nav.contact")}
+                  </Button>
+                </Link>
+            </div>
             </div>
           </div>
         </div>
       )}
     </header>
-  )
-}
+  );
+};
