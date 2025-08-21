@@ -119,3 +119,9 @@ nav:
     startups: Startups
     startups_desc: Scalable security for growing companies
     title: Solutions
+
+search:
+  placeholder: Search anything...
+  searching: Searching...
+  not_found: No results found
+  start_typing: Start typing to search...
