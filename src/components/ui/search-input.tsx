@@ -7,6 +7,9 @@ import {motion, AnimatePresence} from 'framer-motion'
 import { cn } from "../../lib/utils"
 import { useSearch } from '../../hooks/use-search';
 import type {SearchResult} from "../../hooks/use-search"
+import { useTranslation } from "react-i18next"
+import "../../i18n"
+
 interface SearchDrawerProps {
   currentLang?: string
   isOpen: boolean
@@ -28,7 +31,7 @@ export function SearchInput({ currentLang = "en", className, blogUrl, webUrl, on
   const [isExpanded, setIsExpanded] = useState(false)
   const searchRef = useRef<HTMLDivElement>(null)
   const inputRef = useRef<HTMLInputElement>(null)
-
+  const { t } = useTranslation()
     const {
     query,
     setQuery,
@@ -120,7 +123,7 @@ export function SearchInput({ currentLang = "en", className, blogUrl, webUrl, on
           <Input
             ref={inputRef}
             type="text"
-            placeholder="Search pages..."
+            placeholder={t('search.placeholder')}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             className="w-64 pl-10 pr-10 border-2 focus:border-[#8220ff] text-white focus:ring-[#8220ff]/20 transition-all duration-200"
@@ -149,13 +152,13 @@ export function SearchInput({ currentLang = "en", className, blogUrl, webUrl, on
           style={{ pointerEvents: isOpen && isExpanded ? "auto" : "none" }}
         >
           {isLoading ? (
-            <div className="p-4 text-center text-sm text-muted-foreground">Searching...</div>
+            <div className="p-4 text-center text-sm text-muted-foreground">{t('search.searching')}</div>
           ) : results.length > 0 ? (
             <div className="p-2 w-full">
               <ResultList results={results} onClick={handleResultClick}/>
             </div>
           ) : (
-            <div className="p-4 text-center text-sm text-muted-foreground">No results found</div>
+            <div className="p-4 text-center text-sm text-muted-foreground">{t('search.not_found')}</div>
           )}
           </motion.div>
       </AnimatePresence>
@@ -168,7 +171,7 @@ export function SearchDrawer({ currentLang = "en", onClose, blogUrl, webUrl }: S
   const inputRef = useRef<HTMLInputElement>(null)
 
   const { query, setQuery, results, isLoading, clearSearch, handleResultClick } = useSearch({ currentLang, blogUrl, webUrl })
-
+  const { t } = useTranslation()
 
   const handleClose = () => {
     clearSearch()
@@ -184,7 +187,7 @@ export function SearchDrawer({ currentLang = "en", onClose, blogUrl, webUrl }: S
             <Input
               ref={inputRef}
               type="text"
-              placeholder="Search pages..."
+              placeholder={t('search.placeholder')}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="pl-10 border-2 focus:border-[#8220ff] focus:ring-[#8220ff]/20 transition-all duration-200"
@@ -200,15 +203,15 @@ export function SearchDrawer({ currentLang = "en", onClose, blogUrl, webUrl }: S
 
         <div className="p-4 max-h-[calc(100vh-80px)] overflow-y-auto">
           {isLoading ? (
-            <div className="text-center text-sm text-muted-foreground py-8">Searching...</div>
+            <div className="text-center text-sm text-muted-foreground py-8">{t('search.searching')}</div>
           ) : results.length > 0 ? (
             <div className="space-y-2">
               <ResultList results={results} onClick={handleResultClick}/>
             </div>
           ) : query.trim().length >= 2 ? (
-            <div className="text-center text-sm text-muted-foreground py-8">No results found</div>
+            <div className="text-center text-sm text-muted-foreground py-8">{t('search.not_found')}</div>
           ) : (
-            <div className="text-center text-sm text-muted-foreground py-8">Start typing to search...</div>
+            <div className="text-center text-sm text-muted-foreground py-8">{t('search.start_typing')}</div>
           )}
         </div>
       </div>
