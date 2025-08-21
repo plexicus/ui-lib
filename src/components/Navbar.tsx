@@ -1017,7 +1017,7 @@ export const NavbarPlexicus = ({
         </nav>
         <div className="flex flex-end items-center justify-center max-w-[100px] ml-4">
           <div className="hidden xl:flex  items-center gap-4">
-            <SearchInput webUrl={API_URL_WEB} blogUrl={API_URL_BLOG} currentLang={currentLang} onExpanded={handleExpand} />
+            <SearchInput webUrl={WEB_URL} blogUrl={BLOG_URL} currentLang={currentLang} onExpanded={handleExpand} />
             <div className={cn("flex items-center gap-4 transition-all transition-discrete delay-0", searchBarExpanded ? 'hidden' : '')}>
             <Link
               href={`${APP_URL}/login`}
@@ -1564,8 +1564,8 @@ export const NavbarPlexicus = ({
           <div className="overflow-y-auto h-full p-4 pb-20">
             <SearchDrawer
               currentLang={currentLang}
-              webUrl={API_URL_WEB}
-              blogUrl={API_URL_BLOG}
+              webUrl={WEB_URL} 
+              blogUrl={BLOG_URL}
               isOpen={searchOpen}
               onClose={() => setSearchOpen(false)}
             />
