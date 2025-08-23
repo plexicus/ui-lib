@@ -38,6 +38,7 @@ export function CommandDialogSearch({currentLang = "en", className, blogUrl, web
       setQuery,
       results,
       isLoading,
+      handleResultClick
     } = useSearch({ currentLang, blogUrl, webUrl })
 
     const CommandResult = ({data} : {data: SearchResult[]}) => (
@@ -45,7 +46,7 @@ export function CommandDialogSearch({currentLang = "en", className, blogUrl, web
           {                
             data.map((result) => (
               <Link href={result.path}>              
-                <CommandItem key={result.title} className="w-full text-left p-3 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors group">
+                <CommandItem onSelect={() => handleResultClick(result)} key={result.title} className="w-full text-left p-3 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors group">
                   <div className="flex items-start justify-between gap-2 w-full">
                     <div className="flex-1 min-w-0">
                       <h4 className="font-medium text-sm line-clamp-1 group-hover:text-[#8220ff]">{result.title}</h4>
@@ -112,7 +113,7 @@ export const SearchButton = () => {
   return (
       <button
         onClick={handleButtonClick}
-        className="flex items-center space-x-2 px-4 py-2 bg-transparent text-gray-200 rounded-xl border border-white/50 hover:bg-violet-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
+        className="flex items-center space-x-2 px-4 py-1 bg-transparent text-gray-200 rounded-xl border border-white/50 hover:bg-violet-800 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50"
       >
         {/* Search Icon (Inline SVG) */}
         <Search className="w-4 h-4" />
