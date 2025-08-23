@@ -74,7 +74,7 @@ export function useSearch(options: UseSearchOptions) {
 
       if (blogResponse.status === "fulfilled") {
         const blogResults = filterResults(blogResponse.value.pages || [], searchQuery)
-        allResults.push(...blogResults.map((result) => ({ ...result, lang: currentLang, path: `${blogUrl}${slashed}${result.path}`, type: 'blog' })))
+        allResults.push(...blogResults.map((result) => ({ ...result, lang: currentLang, path: `${blogUrl}/${result.path}`, type: 'blog' })))
       }
 
       if (allResults.length < 3 && currentLang !== "en") {
@@ -90,7 +90,7 @@ export function useSearch(options: UseSearchOptions) {
 
         if (blogResponseEn.status === "fulfilled") {
           const blogResultsEn = filterResults(blogResponseEn.value.pages || [], searchQuery)
-          allResults.push(...blogResultsEn.map((result) => ({ ...result, lang: "en", path: `${blogUrl}${slashed}${result.path}`, type: 'blog' })))
+          allResults.push(...blogResultsEn.map((result) => ({ ...result, lang: "en", path: `${blogUrl}/${result.path}`, type: 'blog' })))
         }
       }
 
