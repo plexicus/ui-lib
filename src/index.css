@@ -2,7 +2,10 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
-
+* {
+	scrollbar-color: #404040 #000000 !important;
+	scrollbar-width: thin !important;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
