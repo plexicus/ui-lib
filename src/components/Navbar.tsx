@@ -8,6 +8,7 @@ import { getFullsiteUrl, cn } from "../lib/utils"
 import { API_URL_WEB, API_URL_BLOG, APP_URL } from "../constants/SiteUrl"
 import { useMediaQuery } from "../hooks/useMediaQuery"
 import { SearchDrawer, SearchInput } from "./ui/search-input"
+import { SearchButton } from "./command-input"
 
 // Extract types to improve maintainability
 type MenuItemType = {
@@ -1017,7 +1018,7 @@ export const NavbarPlexicus = ({
         </nav>
         <div className="flex flex-end items-center justify-center max-w-[100px] ml-4">
           <div className="hidden xl:flex  items-center gap-4">
-            <SearchInput webUrl={WEB_URL} blogUrl={BLOG_URL} currentLang={currentLang} onExpanded={handleExpand} />
+            <SearchButton currentLang={currentLang} />
             <div className={cn("flex items-center gap-4 transition-all transition-discrete delay-0", searchBarExpanded ? 'hidden' : '')}>
             <Link
               href={`${APP_URL}/login`}
