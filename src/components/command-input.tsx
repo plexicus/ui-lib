@@ -82,7 +82,7 @@ export function CommandDialogSearch({currentLang = "en", className, blogUrl, web
   return (
     <>
       <div className={cn("ui-lib", className)}>
-        <CommandDialog open={open} onOpenChange={setOpen} className="top-60 dark" >
+        <CommandDialog open={open} onOpenChange={setOpen} className="top-[50%] sm:top-80 lg:top-100 dark" >
           <CommandInput placeholder={t('search.placeholder')} value={query} onValueChange={(e) => setQuery(e)} />
           <CommandList>
             
