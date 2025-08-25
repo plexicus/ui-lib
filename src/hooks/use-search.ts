@@ -25,7 +25,7 @@ interface UseSearchOptions {
 }
 
 export function useSearch(options: UseSearchOptions) {
-  const { currentLang = "en", debounceMs = 300, minQueryLength = 2, blogUrl, webUrl } = options
+  const { currentLang = "en", debounceMs = 1000, minQueryLength = 2, blogUrl, webUrl } = options
 
   const [query, setQuery] = useState("")
   const [results, setResults] = useState<SearchResult[]>([])
@@ -58,6 +58,7 @@ export function useSearch(options: UseSearchOptions) {
   const performSearch = async (searchQuery: string) => {
     setIsLoading(true)
 
+    const slashed = currentLang === 'en' ? '' : '/'
     try {
       const allResults: SearchResult[] = []
 
@@ -68,7 +69,7 @@ export function useSearch(options: UseSearchOptions) {
 
       if (webResponse.status === "fulfilled") {
         const webResults = filterResults(webResponse.value.pages || [], searchQuery)
-        allResults.push(...webResults.map((result) => ({ ...result, lang: currentLang, path: `${webUrl}/${result.path}`, type: 'page'  })))
+        allResults.push(...webResults.map((result) => ({ ...result, lang: currentLang, path: (result.path === '/' && currentLang === 'en') ? webUrl : `${webUrl}${slashed}${result.path}`, type: 'page'  })))
       }
 
       if (blogResponse.status === "fulfilled") {
@@ -84,7 +85,7 @@ export function useSearch(options: UseSearchOptions) {
 
         if (webResponseEn.status === "fulfilled") {
           const webResultsEn = filterResults(webResponseEn.value.pages || [], searchQuery)
-          allResults.push(...webResultsEn.map((result) => ({ ...result, lang: "en", path: `${webUrl}/${result.path}`, type: 'page' })))
+          allResults.push(...webResultsEn.map((result) => ({ ...result, lang: "en", path: result.path === '/' ? webUrl : `${webUrl}${slashed}${result.path}`, type: 'page' })))
         }
 
         if (blogResponseEn.status === "fulfilled") {
@@ -130,6 +131,10 @@ export function useSearch(options: UseSearchOptions) {
     window.location.href = `${result.path}`
     setIsOpen(false)
   }
+
+  useEffect(() => {
+    performSearch('platform')
+  }, [])
 
   return {
     query,

@@ -7,7 +7,8 @@ import "../i18n"
 import { getFullsiteUrl, cn } from "../lib/utils"
 import { API_URL_WEB, API_URL_BLOG, APP_URL } from "../constants/SiteUrl"
 import { useMediaQuery } from "../hooks/useMediaQuery"
-import { SearchDrawer, SearchInput } from "./ui/search-input"
+import { SearchDrawer } from "./ui/search-input"
+import { SearchButton } from "./command-input"
 
 // Extract types to improve maintainability
 type MenuItemType = {
@@ -39,7 +40,6 @@ export const NavbarPlexicus = ({
   const [lang, setLang] = useState("/");
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeMenu, setActiveMenu] = useState<string | null>(null);
-  const [searchBarExpanded, setSearchBarExpanded] = useState(false);
   const [openMenuItems, setOpenMenuItems] = useState<string[]>([]);
   const menuTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -896,10 +896,6 @@ export const NavbarPlexicus = ({
       ],
     },
   }
-
-  const handleExpand = (exp: boolean) => {
-    setSearchBarExpanded(exp)
-  }
   return (
     <header
       className="fixed top-0 left-0 right-0 w-full z-50 transition-all duration-300 py-1"
@@ -1017,8 +1013,8 @@ export const NavbarPlexicus = ({
         </nav>
         <div className="flex flex-end items-center justify-center max-w-[100px] ml-4">
           <div className="hidden xl:flex  items-center gap-4">
-            <SearchInput webUrl={WEB_URL} blogUrl={BLOG_URL} currentLang={currentLang} onExpanded={handleExpand} />
-            <div className={cn("flex items-center gap-4 transition-all transition-discrete delay-0", searchBarExpanded ? 'hidden' : '')}>
+            <SearchButton />
+            <div className={cn("flex items-center gap-4 transition-all transition-discrete delay-0")}>
             <Link
               href={`${APP_URL}/login`}
               className="text-sm font-medium text-white hover:text-white/80 transition-colors whitespace-nowrap"

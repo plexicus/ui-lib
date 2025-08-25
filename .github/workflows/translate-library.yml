@@ -65,7 +65,7 @@ jobs:
       - name: Run translator script
         if: ${{ steps.changed.outputs.matrix != '[]' }}
         run: |
-          python scripts/translate-library.py '${{ steps.changed.outputs.matrix }}'
+          python script/translate-library.py '${{ steps.changed.outputs.matrix }}'
       - name: Commit and Push Built Files
         if: ${{ steps.changed.outputs.matrix != '[]' }}
         uses: stefanzweifel/git-auto-commit-action@v5 # Use a stable version of the action

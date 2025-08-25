@@ -19,7 +19,7 @@ interface SearchDrawerProps {
 }
 
 
-interface SearchInputProps {
+export interface SearchInputProps {
   currentLang?: string
   className?: string,
   blogUrl: string,
