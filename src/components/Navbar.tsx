@@ -1011,7 +1011,7 @@ export const NavbarPlexicus = ({
             {t("nav.contact")}
           </Link>
         </nav>
-        <div className="flex flex-end items-center justify-center max-w-[100px] ml-4">
+        <div className="flex flex-end items-center justify-center ml-4">
           <div className="hidden xl:flex  items-center gap-4">
             <SearchButton />
             <div className={cn("flex items-center gap-4 transition-all transition-discrete delay-0")}>
