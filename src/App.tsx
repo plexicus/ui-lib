@@ -12,7 +12,7 @@ function getLanguageFromUrl(): string {
   return languageCode;
 }
 
-console.log({a: await analytics({}).page()})
+
 function App() {
   const trackClick = (eventNames: string, scope: string, item: string, value: number) => {
     analytics({}).track(eventNames, {
