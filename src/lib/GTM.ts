@@ -1,0 +1,18 @@
+import Analytics from 'analytics'
+import googleTagManager from '@analytics/google-tag-manager'
+import { GTMContainerId } from '../constants/Gtm'
+
+export interface analyticsProps {
+    containerId?: string
+}
+export const analytics = ({containerId= GTMContainerId}: analyticsProps) => {
+  console.log({containerId})
+  return Analytics({
+  app: 'awesome-app',
+  plugins: [
+    googleTagManager({
+      containerId
+    })
+  ]
+})
+}
