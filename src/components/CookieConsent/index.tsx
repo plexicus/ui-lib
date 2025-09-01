@@ -7,7 +7,11 @@ const CookieConsentComponent = () => {
     CookieConsent.run(pluginConfig);
   }, []);
 
-  return;
+  return (
+    <a href="#" onClick={CookieConsent.showPreferences}>
+      Show Cookie Preferences
+    </a>
+  );
 };
 
 export default CookieConsentComponent;
