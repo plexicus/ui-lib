@@ -12829,14 +12829,14 @@ function po(e, t) {
   }).length;
 }
 var vm = gm;
-const ym = "GTM-KTZG4PZS", bm = ({ containerId: e = ym }) => (console.log({ containerId: e }), fm({
-  app: "awesome-app",
+const ym = "GTM-KTZG4PZS", bm = ({ containerId: e = ym }) => fm({
+  app: "plexicus-ui",
   plugins: [
     vm({
       containerId: e
     })
   ]
-}));
+});
 var ji = {
   consentModal: {
     acceptAllBtn: "قبول الكل",
