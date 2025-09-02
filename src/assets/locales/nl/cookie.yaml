@@ -14,15 +14,15 @@ preferencesModal:
   closeIconLabel: Sluiten
   savePreferencesBtn: Voorkeuren Opslaan
   sections:
-  - description: We gebruiken cookies om de basisfunctionaliteit van de website te
-      garanderen en uw online ervaring te verbeteren. U heeft de mogelijkheid om op
-      elk moment in of uit te schakelen voor elke categorie. Voor meer details over
-      cookies en andere gevoelige gegevens, bekijk ons volledige <a href="https://www.plexicus.ai/privacy">privacybeleid</a>.
+  - description: Wij gebruiken cookies om de basisfunctionaliteit van de website te
+      garanderen en uw online ervaring te verbeteren. U heeft de optie om op elk moment
+      in of uit te schakelen voor elke categorie. Voor meer details over cookies en
+      andere gevoelige gegevens, bekijk ons volledige <a href="https://www.plexicus.ai/privacy">privacybeleid</a>.
     title: Cookiegebruik
   - description: Deze cookies zijn essentieel voor de goede werking van de website
       en kunnen niet worden uitgeschakeld. Ze slaan geen persoonlijk identificeerbare
       informatie op.
-    linkedCategory: noodzakelijk
+    linkedCategory: necessary
     title: Strikt Noodzakelijke Cookies
   - cookieTable:
       body:
@@ -41,13 +41,13 @@ preferencesModal:
         name: Naam
     description: Deze cookies stellen ons in staat om bezoeken en verkeersbronnen
       te tellen zodat we de prestaties van onze site kunnen meten en verbeteren. Ze
-      helpen ons te weten welke pagina's het meest en minst populair zijn en hoe bezoekers
-      zich over de site bewegen. Alle informatie die deze cookies verzamelen is geaggregeerd
-      en dus anoniem. Als u deze cookies niet toestaat, weten we niet wanneer u onze
-      site heeft bezocht en kunnen we de prestaties niet monitoren.
-    linkedCategory: analytisch
+      helpen ons te weten welke pagina's het meest en minst populair zijn en zien
+      hoe bezoekers zich over de site bewegen. Alle informatie die deze cookies verzamelen
+      is geaggregeerd en dus anoniem. Als u deze cookies niet toestaat, weten we niet
+      wanneer u onze site heeft bezocht en kunnen we de prestaties niet monitoren.
+    linkedCategory: analytics
     title: Prestatie- en Analysecookies
-  - description: Voor vragen over ons cookiebeleid of uw keuzes, neem dan <a class="cc__link"
-      href="https://www.plexicus.ai/contact">contact met ons op</a>.
+  - description: Voor vragen over ons cookiebeleid of uw keuzes, neem alstublieft
+      <a class="cc__link" href="https://www.plexicus.ai/contact">contact met ons op</a>.
     title: Meer Informatie
   title: Cookievoorkeuren

@@ -1,13 +1,13 @@
 consentModal:
   acceptAllBtn: Přijmout vše
   acceptNecessaryBtn: Odmítnout vše
-  description: Tato webová stránka používá sledovací technologie, jako jsou cookies,
-    k analýze chování uživatelů a zlepšení vašeho zážitku. Sledování bude povoleno
-    pouze tehdy, pokud to výslovně přijmete. <a href="https://www.plexicus.ai/privacy"
-    data-cc="show-preferencesModal" class="cc__link">Spravovat preference</a>
+  description: Tento web používá sledovací technologie, jako jsou cookies, k analýze
+    chování uživatelů a zlepšení vašeho zážitku. Sledování bude povoleno pouze pokud
+    jej výslovně přijmete. <a href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal"
+    class="cc__link">Spravovat preference</a>
   footer: <a href="https://www.plexicus.ai/privacy">Zásady ochrany osobních údajů</a>
   showPreferencesBtn: Spravovat preference
-  title: Ceníme si vašeho soukromí
+  title: Vážíme si vašeho soukromí
 preferencesModal:
   acceptAllBtn: Přijmout vše
   acceptNecessaryBtn: Odmítnout vše
@@ -15,14 +15,14 @@ preferencesModal:
   savePreferencesBtn: Uložit preference
   sections:
   - description: Používáme cookies k zajištění základní funkčnosti webu a ke zlepšení
-      vašeho online zážitku. Máte možnost kdykoli se rozhodnout pro nebo proti každé
-      kategorii. Pro více informací o cookies a dalších citlivých datech si prosím
+      vašeho online zážitku. Máte možnost kdykoliv se rozhodnout pro nebo proti každé
+      kategorii. Pro více informací o cookies a dalších citlivých údajích si prosím
       přečtěte naše úplné <a href="https://www.plexicus.ai/privacy">zásady ochrany
       osobních údajů</a>.
     title: Použití cookies
-  - description: Tyto cookies jsou nezbytné pro správné fungování webu a nelze je
-      zakázat. Neuchovávají žádné osobně identifikovatelné informace.
-    linkedCategory: nezbytné
+  - description: Tyto cookies jsou nezbytné pro správnou funkci webu a nelze je zakázat.
+      Neuchovávají žádné osobně identifikovatelné informace.
+    linkedCategory: necessary
     title: Nezbytné cookies
   - cookieTable:
       body:
@@ -37,17 +37,18 @@ preferencesModal:
       headers:
         description: Popis
         domain: Služba
-        expiration: Platnost
+        expiration: Vypršení
         name: Název
-    description: Tyto cookies nám umožňují počítat návštěvy a zdroje provozu, abychom
-      mohli měřit a zlepšovat výkon našeho webu. Pomáhají nám zjistit, které stránky
-      jsou nejvíce a nejméně populární a jak se návštěvníci pohybují po webu. Veškeré
-      informace, které tyto cookies shromažďují, jsou agregované a tedy anonymní.
+    description: Tyto cookies nám umožňují počítat návštěvy a zdroje návštěvnosti,
+      abychom mohli měřit a zlepšovat výkon našeho webu. Pomáhají nám zjistit, které
+      stránky jsou nejvíce a nejméně populární a jak se návštěvníci pohybují po webu.
+      Veškeré informace, které tyto cookies shromažďují, jsou agregované a tedy anonymní.
       Pokud tyto cookies nepovolíte, nebudeme vědět, kdy jste navštívili náš web,
       a nebudeme moci sledovat jeho výkon.
-    linkedCategory: analytika
-    title: Výkonnostní a analytické cookies
-  - description: Pro jakékoli dotazy týkající se naší politiky cookies nebo vašich
-      voleb nás prosím <a class="cc__link" href="https://www.plexicus.ai/contact">kontaktujte</a>.
+    linkedCategory: analytics
+    title: Cookies pro výkon a analýzu
+  - description: Pro jakékoliv dotazy ohledně naší politiky cookies nebo vašich voleb,
+      prosím <a class="cc__link" href="https://www.plexicus.ai/contact">kontaktujte
+      nás</a>.
     title: Více informací
   title: Preference cookies

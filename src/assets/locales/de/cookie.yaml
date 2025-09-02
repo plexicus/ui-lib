@@ -5,7 +5,7 @@ consentModal:
     Nutzerverhalten zu analysieren und Ihre Erfahrung zu verbessern. Das Tracking
     wird nur aktiviert, wenn Sie ausdrücklich zustimmen. <a href="https://www.plexicus.ai/privacy"
     data-cc="show-preferencesModal" class="cc__link">Präferenzen verwalten</a>
-  footer: <a href="https://www.plexicus.ai/privacy">Datenschutzrichtlinie</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Datenschutzerklärung</a>
   showPreferencesBtn: Präferenzen verwalten
   title: Wir schätzen Ihre Privatsphäre
 preferencesModal:
@@ -16,14 +16,14 @@ preferencesModal:
   sections:
   - description: Wir verwenden Cookies, um die grundlegende Funktionalität der Website
       sicherzustellen und Ihre Online-Erfahrung zu verbessern. Sie haben die Möglichkeit,
-      jederzeit jede Kategorie ein- oder auszuschalten. Für weitere Details zu Cookies
-      und anderen sensiblen Daten, lesen Sie bitte unsere vollständige <a href="https://www.plexicus.ai/privacy">Datenschutzrichtlinie</a>.
+      jederzeit in jede Kategorie ein- oder auszusteigen. Für weitere Details zu Cookies
+      und anderen sensiblen Daten, lesen Sie bitte unsere vollständige <a href="https://www.plexicus.ai/privacy">Datenschutzerklärung</a>.
     title: Cookie-Nutzung
-  - description: Diese Cookies sind essentiell für die ordnungsgemäße Funktion der
-      Website und können nicht deaktiviert werden. Sie speichern keine persönlich
+  - description: Diese Cookies sind für das ordnungsgemäße Funktionieren der Website
+      unerlässlich und können nicht deaktiviert werden. Sie speichern keine persönlich
       identifizierbaren Informationen.
-    linkedCategory: notwendig
-    title: Unbedingt notwendige Cookies
+    linkedCategory: necessary
+    title: Unbedingt erforderliche Cookies
   - cookieTable:
       body:
       - description: Dieses Cookie wird von <a href="#">Google Analytics</a> gesetzt.
@@ -46,7 +46,7 @@ preferencesModal:
       diese Cookies sammeln, sind aggregiert und daher anonym. Wenn Sie diese Cookies
       nicht zulassen, wissen wir nicht, wann Sie unsere Website besucht haben, und
       können ihre Leistung nicht überwachen.
-    linkedCategory: Analytik
+    linkedCategory: analytics
     title: Leistungs- und Analyse-Cookies
   - description: Bei Fragen zu unserer Cookie-Richtlinie oder Ihren Entscheidungen,
       bitte <a class="cc__link" href="https://www.plexicus.ai/contact">kontaktieren

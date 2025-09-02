@@ -14,15 +14,15 @@ preferencesModal:
   closeIconLabel: Fermer
   savePreferencesBtn: Enregistrer les préférences
   sections:
-  - description: Nous utilisons des cookies pour garantir la fonctionnalité de base
-      du site et améliorer votre expérience en ligne. Vous avez la possibilité de
-      choisir d'accepter ou de refuser chaque catégorie à tout moment. Pour plus de
-      détails sur les cookies et autres données sensibles, veuillez consulter notre
-      <a href="https://www.plexicus.ai/privacy">politique de confidentialité complète</a>.
+  - description: Nous utilisons des cookies pour assurer le bon fonctionnement du
+      site et améliorer votre expérience en ligne. Vous avez la possibilité de choisir
+      d'adhérer ou non à chaque catégorie à tout moment. Pour plus de détails sur
+      les cookies et autres données sensibles, veuillez consulter notre <a href="https://www.plexicus.ai/privacy">politique
+      de confidentialité complète</a>.
     title: Utilisation des cookies
   - description: Ces cookies sont essentiels au bon fonctionnement du site et ne peuvent
       pas être désactivés. Ils ne stockent aucune information personnellement identifiable.
-    linkedCategory: nécessaire
+    linkedCategory: necessary
     title: Cookies strictement nécessaires
   - cookieTable:
       body:
@@ -40,13 +40,13 @@ preferencesModal:
         expiration: Expiration
         name: Nom
     description: Ces cookies nous permettent de compter les visites et les sources
-      de trafic afin que nous puissions mesurer et améliorer la performance de notre
-      site. Ils nous aident à savoir quelles pages sont les plus et les moins populaires
-      et à voir comment les visiteurs se déplacent sur le site. Toutes les informations
-      collectées par ces cookies sont agrégées et donc anonymes. Si vous n'autorisez
-      pas ces cookies, nous ne saurons pas quand vous avez visité notre site et ne
-      pourrons pas en surveiller la performance.
-    linkedCategory: analytique
+      de trafic afin de mesurer et d'améliorer la performance de notre site. Ils nous
+      aident à savoir quelles pages sont les plus et les moins populaires et à voir
+      comment les visiteurs se déplacent sur le site. Toutes les informations collectées
+      par ces cookies sont agrégées et donc anonymes. Si vous n'autorisez pas ces
+      cookies, nous ne saurons pas quand vous avez visité notre site et ne pourrons
+      pas en surveiller la performance.
+    linkedCategory: analytics
     title: Cookies de performance et d'analyse
   - description: Pour toute question concernant notre politique de cookies ou vos
       choix, veuillez <a class="cc__link" href="https://www.plexicus.ai/contact">nous

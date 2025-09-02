@@ -1,22 +1,22 @@
 consentModal:
-  acceptAllBtn: 全てを許可
-  acceptNecessaryBtn: 全てを拒否
-  description: このウェブサイトは、クッキーなどの追跡技術を使用してユーザーの行動を分析し、体験を向上させます。追跡は、明示的に許可した場合のみ有効になります。<a
-    href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal" class="cc__link">設定を管理</a>
+  acceptAllBtn: すべてを受け入れる
+  acceptNecessaryBtn: すべてを拒否する
+  description: このウェブサイトは、クッキーなどの追跡技術を使用してユーザーの行動を分析し、体験を向上させます。追跡は、明示的に受け入れた場合にのみ有効になります。<a
+    href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal" class="cc__link">設定を管理する</a>
   footer: <a href="https://www.plexicus.ai/privacy">プライバシーポリシー</a>
-  showPreferencesBtn: 設定を管理
-  title: プライバシーを重視します
+  showPreferencesBtn: 設定を管理する
+  title: お客様のプライバシーを重視します
 preferencesModal:
-  acceptAllBtn: 全てを許可
-  acceptNecessaryBtn: 全てを拒否
+  acceptAllBtn: すべてを受け入れる
+  acceptNecessaryBtn: すべてを拒否する
   closeIconLabel: 閉じる
-  savePreferencesBtn: 設定を保存
+  savePreferencesBtn: 設定を保存する
   sections:
-  - description: ウェブサイトの基本機能を確保し、オンライン体験を向上させるためにクッキーを使用しています。各カテゴリをいつでも選択することができます。クッキーやその他の機密データの詳細については、完全な<a
+  - description: ウェブサイトの基本機能を確保し、オンライン体験を向上させるためにクッキーを使用しています。各カテゴリーをいつでも選択することができます。クッキーやその他の機密データの詳細については、完全な<a
       href="https://www.plexicus.ai/privacy">プライバシーポリシー</a>をご覧ください。
     title: クッキーの使用
-  - description: これらのクッキーは、ウェブサイトが正常に機能するために不可欠であり、無効にすることはできません。これらは個人を特定できる情報を保存しません。
-    linkedCategory: 必要
+  - description: これらのクッキーはウェブサイトが正しく機能するために不可欠であり、無効にすることはできません。これらは個人を特定できる情報を保存しません。
+    linkedCategory: necessary
     title: 厳密に必要なクッキー
   - cookieTable:
       body:
@@ -33,9 +33,9 @@ preferencesModal:
         domain: サービス
         expiration: 有効期限
         name: 名前
-    description: これらのクッキーは、訪問数とトラフィックソースをカウントすることで、サイトのパフォーマンスを測定し改善することを可能にします。どのページが最も人気があるか、または人気がないかを知り、訪問者がサイト内をどのように移動するかを確認するのに役立ちます。これらのクッキーが収集する情報はすべて集約されており、匿名です。これらのクッキーを許可しない場合、サイトを訪問したことがわからず、パフォーマンスを監視することができません。
-    linkedCategory: 分析
+    description: これらのクッキーは訪問数とトラフィックソースをカウントすることを可能にし、サイトのパフォーマンスを測定および改善するのに役立ちます。どのページが最も人気があるか、または最も人気がないかを知り、訪問者がサイト内をどのように移動するかを確認するのに役立ちます。これらのクッキーが収集する情報はすべて集計されており、匿名です。これらのクッキーを許可しない場合、サイトを訪問した時期を知ることができず、パフォーマンスを監視することができません。
+    linkedCategory: analytics
     title: パフォーマンスと分析クッキー
-  - description: クッキーポリシーや選択に関する質問がある場合は、<a class="cc__link" href="https://www.plexicus.ai/contact">お問い合わせください</a>。
+  - description: クッキーポリシーや選択に関する質問については、<a class="cc__link" href="https://www.plexicus.ai/contact">お問い合わせください</a>。
     title: 詳細情報
   title: クッキー設定

@@ -21,15 +21,15 @@ preferencesModal:
     title: Cookiebrug
   - description: Disse cookies er essentielle for, at hjemmesiden fungerer korrekt
       og kan ikke deaktiveres. De gemmer ikke nogen personligt identificerbare oplysninger.
-    linkedCategory: nødvendig
+    linkedCategory: necessary
     title: Strengt nødvendige cookies
   - cookieTable:
       body:
-      - description: Denne cookie er sat af <a href="#">Google Analytics</a>.
+      - description: Denne cookie sættes af <a href="#">Google Analytics</a>.
         domain: Google Analytics
         expiration: Udløber efter 12 dage
         name: _ga
-      - description: Denne cookie er sat af <a href="#">Google Analytics</a>.
+      - description: Denne cookie sættes af <a href="#">Google Analytics</a>.
         domain: Google Analytics
         expiration: Session
         name: _gid
@@ -39,13 +39,13 @@ preferencesModal:
         expiration: Udløb
         name: Navn
     description: Disse cookies giver os mulighed for at tælle besøg og trafikkilder,
-      så vi kan måle og forbedre ydelsen af vores hjemmeside. De hjælper os med at
-      vide, hvilke sider der er mest og mindst populære og se, hvordan besøgende bevæger
-      sig rundt på siden. Al information, som disse cookies indsamler, er aggregeret
-      og derfor anonym. Hvis du ikke tillader disse cookies, vil vi ikke vide, hvornår
-      du har besøgt vores hjemmeside, og vil ikke kunne overvåge dens ydelse.
-    linkedCategory: analyse
-    title: Ydelses- og analysecookies
+      så vi kan måle og forbedre vores hjemmesides ydeevne. De hjælper os med at vide,
+      hvilke sider der er mest og mindst populære og se, hvordan besøgende bevæger
+      sig rundt på siden. Alle oplysninger, disse cookies indsamler, er aggregerede
+      og derfor anonyme. Hvis du ikke tillader disse cookies, vil vi ikke vide, hvornår
+      du har besøgt vores hjemmeside, og vil ikke kunne overvåge dens ydeevne.
+    linkedCategory: analytics
+    title: Ydeevne- og analysecookies
   - description: For spørgsmål vedrørende vores cookiepolitik eller dine valg, bedes
       du <a class="cc__link" href="https://www.plexicus.ai/contact">kontakte os</a>.
     title: Mere information

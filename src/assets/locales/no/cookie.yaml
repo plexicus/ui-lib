@@ -16,13 +16,12 @@ preferencesModal:
   sections:
   - description: Vi bruker informasjonskapsler for å sikre grunnleggende funksjonalitet
       på nettsiden og for å forbedre din online opplevelse. Du har muligheten til
-      å velge inn eller ut av hver kategori når som helst. For mer informasjon om
-      informasjonskapsler og andre sensitive data, vennligst se vår fullstendige <a
-      href="https://www.plexicus.ai/privacy">personvernpolicy</a>.
+      å velge inn eller ut av hver kategori når som helst. For mer detaljer om informasjonskapsler
+      og annen sensitiv data, vennligst se vår fullstendige <a href="https://www.plexicus.ai/privacy">personvernpolicy</a>.
     title: Bruk av informasjonskapsler
   - description: Disse informasjonskapslene er essensielle for at nettsiden skal fungere
-      riktig og kan ikke deaktiveres. De lagrer ingen personlig identifiserbar informasjon.
-    linkedCategory: nødvendig
+      ordentlig og kan ikke deaktiveres. De lagrer ikke personlig identifiserbar informasjon.
+    linkedCategory: necessary
     title: Strengt nødvendige informasjonskapsler
   - cookieTable:
       body:
@@ -40,13 +39,13 @@ preferencesModal:
         expiration: Utløp
         name: Navn
     description: Disse informasjonskapslene lar oss telle besøk og trafikkilder slik
-      at vi kan måle og forbedre ytelsen til nettstedet vårt. De hjelper oss å vite
+      at vi kan måle og forbedre ytelsen til vårt nettsted. De hjelper oss å vite
       hvilke sider som er mest og minst populære og se hvordan besøkende beveger seg
-      rundt på nettstedet. All informasjon disse informasjonskapslene samler inn er
-      aggregert og derfor anonym. Hvis du ikke tillater disse informasjonskapslene,
+      rundt på nettstedet. All informasjon som disse informasjonskapslene samler inn
+      er aggregert og derfor anonym. Hvis du ikke tillater disse informasjonskapslene
       vil vi ikke vite når du har besøkt vårt nettsted, og vil ikke kunne overvåke
       ytelsen.
-    linkedCategory: analyse
+    linkedCategory: analytics
     title: Ytelse og analyse informasjonskapsler
   - description: For spørsmål angående vår informasjonskapselpolicy eller dine valg,
       vennligst <a class="cc__link" href="https://www.plexicus.ai/contact">kontakt

@@ -14,14 +14,14 @@ preferencesModal:
   closeIconLabel: Stäng
   savePreferencesBtn: Spara inställningar
   sections:
-  - description: Vi använder cookies för att säkerställa grundläggande funktionalitet
-      på webbplatsen och för att förbättra din onlineupplevelse. Du har möjlighet
+  - description: Vi använder cookies för att säkerställa webbplatsens grundläggande
+      funktionalitet och för att förbättra din onlineupplevelse. Du har möjlighet
       att välja in eller ut ur varje kategori när som helst. För mer information om
       cookies och annan känslig data, vänligen granska vår fullständiga <a href="https://www.plexicus.ai/privacy">integritetspolicy</a>.
-    title: Cookie-användning
+    title: Cookieanvändning
   - description: Dessa cookies är nödvändiga för att webbplatsen ska fungera korrekt
       och kan inte inaktiveras. De lagrar ingen personligt identifierbar information.
-    linkedCategory: nödvändiga
+    linkedCategory: necessary
     title: Strikt nödvändiga cookies
   - cookieTable:
       body:
@@ -43,10 +43,10 @@ preferencesModal:
       att veta vilka sidor som är mest och minst populära och se hur besökare rör
       sig runt på webbplatsen. All information som dessa cookies samlar in är aggregerad
       och därför anonym. Om du inte tillåter dessa cookies kommer vi inte att veta
-      när du har besökt vår webbplats, och kommer inte att kunna övervaka dess prestanda.
-    linkedCategory: analys
+      när du har besökt vår webbplats och kommer inte att kunna övervaka dess prestanda.
+    linkedCategory: analytics
     title: Prestanda- och analyscookies
   - description: För frågor angående vår cookiepolicy eller dina val, vänligen <a
       class="cc__link" href="https://www.plexicus.ai/contact">kontakta oss</a>.
     title: Mer information
-  title: Cookie-inställningar
+  title: Cookieinställningar
