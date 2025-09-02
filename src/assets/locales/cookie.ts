@@ -1,9 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import flattenYamlObject from '../../lib/flattenObject';
-
-
 const dictionaries: Record<string, string|any> = {};
-const yamlFiles = import.meta.glob(['./**/translation.yml', './**/translation.yaml'], { eager: true });
+const yamlFiles = import.meta.glob(['./**/cookie.yml', './**/cookie.yaml'], { eager: true });
 for (const path in yamlFiles) {
     const fileData = yamlFiles[path];
     const sanitizedPath = path.replace(/^\.\/|\/$/g, '');
@@ -19,12 +16,12 @@ for (const path in yamlFiles) {
         continue;
     }
 
-    // Assign flattened data to the correct language dictionary and namespace ('translation')
+    // Assign flattened data to the correct language dictionary and namespace ('cookie')
     // i18next expects resources in the format { lng: { ns: { key: value } } }
-    if (!dictionaries[language]['translation']) {
-        dictionaries[language]['translation'] = {};
+    if (!dictionaries[language]['cookie']) {
+        dictionaries[language]['cookie'] = {};
     }
-    Object.assign(dictionaries[language]['translation'], flattenYamlObject(fileData));
+    Object.assign(dictionaries[language], fileData);
 }
 
 export default dictionaries;

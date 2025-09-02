@@ -1,0 +1,54 @@
+consentModal:
+  acceptAllBtn: Accetta Tutto
+  acceptNecessaryBtn: Rifiuta Tutto
+  description: Questo sito web utilizza tecnologie di tracciamento, come i cookie,
+    per analizzare il comportamento degli utenti e migliorare la tua esperienza. Il
+    tracciamento sarà abilitato solo se accetti esplicitamente. <a href="https://www.plexicus.ai/privacy"
+    data-cc="show-preferencesModal" class="cc__link">Gestisci preferenze</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Politica sulla Privacy</a>
+  showPreferencesBtn: Gestisci Preferenze
+  title: Apprezziamo la tua Privacy
+preferencesModal:
+  acceptAllBtn: Accetta Tutto
+  acceptNecessaryBtn: Rifiuta Tutto
+  closeIconLabel: Chiudi
+  savePreferencesBtn: Salva Preferenze
+  sections:
+  - description: Utilizziamo i cookie per garantire la funzionalità di base del sito
+      web e per migliorare la tua esperienza online. Hai la possibilità di scegliere
+      se accettare o rifiutare ogni categoria in qualsiasi momento. Per ulteriori
+      dettagli sui cookie e altri dati sensibili, consulta la nostra <a href="https://www.plexicus.ai/privacy">politica
+      sulla privacy</a> completa.
+    title: Utilizzo dei Cookie
+  - description: Questi cookie sono essenziali per il corretto funzionamento del sito
+      web e non possono essere disabilitati. Non memorizzano alcuna informazione personale
+      identificabile.
+    linkedCategory: necessary
+    title: Cookie Strettamente Necessari
+  - cookieTable:
+      body:
+      - description: Questo cookie è impostato da <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Scade dopo 12 giorni
+        name: _ga
+      - description: Questo cookie è impostato da <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Sessione
+        name: _gid
+      headers:
+        description: Descrizione
+        domain: Servizio
+        expiration: Scadenza
+        name: Nome
+    description: Questi cookie ci permettono di contare le visite e le fonti di traffico
+      in modo da poter misurare e migliorare le prestazioni del nostro sito. Ci aiutano
+      a sapere quali pagine sono le più e le meno popolari e a vedere come i visitatori
+      si muovono nel sito. Tutte le informazioni raccolte da questi cookie sono aggregate
+      e quindi anonime. Se non consenti questi cookie, non sapremo quando hai visitato
+      il nostro sito e non saremo in grado di monitorarne le prestazioni.
+    linkedCategory: analytics
+    title: Cookie di Prestazione e Analisi
+  - description: Per qualsiasi domanda riguardante la nostra politica sui cookie o
+      le tue scelte, ti preghiamo di <a class="cc__link" href="https://www.plexicus.ai/contact">contattarci</a>.
+    title: Ulteriori Informazioni
+  title: Preferenze sui Cookie

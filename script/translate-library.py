@@ -52,6 +52,7 @@ if __name__ == "__main__":
 
                             • Translate the YAML chunk into {lang_name}.
                             • Preserve the YAML structure and keys.
+                            • Dont translate this keys: (linkedCategory)
                             • No explanations, comments, or extra keys—only raw JSON.
                             • Please use neutral and objective terminology for this translation.
                             • Avoid any words that could be misinterpreted as aggressive, sensitive, or inappropriate.
