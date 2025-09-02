@@ -1,0 +1,39 @@
+consentModal:
+  title: "Kami Menghargai Privasi Anda"
+  description: Situs web ini menggunakan teknologi pelacakan, seperti cookie, untuk menganalisis perilaku pengguna dan meningkatkan pengalaman Anda. Pelacakan hanya akan diaktifkan jika Anda menerimanya secara eksplisit. <a href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal" class="cc__link">Kelola preferensi</a>
+  acceptAllBtn: "Terima Semua"
+  acceptNecessaryBtn: "Tolak Semua"
+  showPreferencesBtn: "Kelola Preferensi"
+  footer:   <a href="https://www.plexicus.ai/privacy">Kebijakan Privasi</a>
+preferencesModal:
+  title: "Preferensi Cookie"
+  acceptAllBtn: "Terima Semua"
+  acceptNecessaryBtn: "Tolak Semua"
+  savePreferencesBtn: "Simpan Preferensi"
+  closeIconLabel: "Tutup"
+  sections:
+    - title: "Penggunaan Cookie"
+      description: Kami menggunakan cookie untuk memastikan fungsionalitas dasar situs web dan untuk meningkatkan pengalaman online Anda. Anda memiliki opsi untuk ikut serta atau keluar dari setiap kategori kapan saja. Untuk perincian lebih lanjut mengenai cookie dan data sensitif lainnya, silakan tinjau <a href="https://www.plexicus.ai/privacy">kebijakan privasi</a> lengkap kami.
+    - title: "Cookie yang Sangat Diperlukan"
+      description: "Cookie ini penting agar situs web berfungsi dengan baik dan tidak dapat dinonaktifkan. Cookie ini tidak menyimpan informasi identitas pribadi apa pun."
+      linkedCategory: "necessary"
+    - title: "Cookie Performa dan Analitik"
+      description: "Cookie ini memungkinkan kami menghitung kunjungan dan sumber lalu lintas sehingga kami dapat mengukur dan meningkatkan performa situs kami. Cookie ini membantu kami mengetahui halaman mana yang paling dan paling tidak populer serta melihat bagaimana pengunjung bergerak di sekitar situs. Semua informasi yang dikumpulkan oleh cookie ini bersifat agregat dan anonim. Jika Anda tidak mengizinkan cookie ini, kami tidak akan tahu kapan Anda mengunjungi situs kami, dan tidak akan dapat memantau performanya."
+      linkedCategory: "analytics"
+      cookieTable:
+        headers:
+          name: "Nama"
+          domain: "Layanan"
+          description: "Deskripsi"
+          expiration: "Kedaluwarsa"
+        body:
+          - name: "_ga"
+            domain: "Google Analytics"
+            description: "Cookie ini ditetapkan oleh <a href=\"#das\">Google Analytics</a>."
+            expiration: "Kedaluwarsa setelah 12 hari"
+          - name: "_gid"
+            domain: "Google Analytics"
+            description: "Cookie ini ditetapkan oleh <a href=\"#das\">Google Analytics</a>."
+            expiration: "Sesi"
+    - title: "Informasi Lebih Lanjut"
+      description: "Untuk pertanyaan apa pun mengenai kebijakan cookie atau pilihan Anda, silakan <a class=\"cc__link\" href=\"#yourdomain.com\">hubungi kami</a>."
