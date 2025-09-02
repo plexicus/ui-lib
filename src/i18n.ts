@@ -8,7 +8,7 @@ i18n
   .init({
     lng: "en",
     supportedLngs,
-   resources: dictionaries,
+    resources: dictionaries,
     fallbackLng: "en",
     react: { useSuspense: false },
   });

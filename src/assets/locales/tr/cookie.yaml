@@ -1,0 +1,54 @@
+consentModal:
+  acceptAllBtn: Tümünü Kabul Et
+  acceptNecessaryBtn: Tümünü Reddet
+  description: Bu web sitesi, kullanıcı davranışını analiz etmek ve deneyiminizi iyileştirmek
+    için çerezler gibi izleme teknolojileri kullanır. İzleme, yalnızca açıkça kabul
+    etmeniz durumunda etkinleştirilecektir. <a href="https://www.plexicus.ai/privacy"
+    data-cc="show-preferencesModal" class="cc__link">Tercihleri yönet</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Gizlilik Politikası</a>
+  showPreferencesBtn: Tercihleri Yönet
+  title: Gizliliğinize Değer Veriyoruz
+preferencesModal:
+  acceptAllBtn: Tümünü Kabul Et
+  acceptNecessaryBtn: Tümünü Reddet
+  closeIconLabel: Kapat
+  savePreferencesBtn: Tercihleri Kaydet
+  sections:
+  - description: Web sitesinin temel işlevselliğini sağlamak ve çevrimiçi deneyiminizi
+      geliştirmek için çerezler kullanıyoruz. Her kategoriyi istediğiniz zaman kabul
+      etme veya reddetme seçeneğiniz vardır. Çerezler ve diğer hassas veriler hakkında
+      daha fazla bilgi için lütfen tam <a href="https://www.plexicus.ai/privacy">gizlilik
+      politikamızı</a> inceleyin.
+    title: Çerez Kullanımı
+  - description: Bu çerezler, web sitesinin düzgün çalışması için gereklidir ve devre
+      dışı bırakılamaz. Kişisel olarak tanımlanabilir herhangi bir bilgi depolamazlar.
+    linkedCategory: necessary
+    title: Kesinlikle Gerekli Çerezler
+  - cookieTable:
+      body:
+      - description: Bu çerez <a href="#">Google Analytics</a> tarafından ayarlanır.
+        domain: Google Analytics
+        expiration: 12 gün sonra sona erer
+        name: _ga
+      - description: Bu çerez <a href="#">Google Analytics</a> tarafından ayarlanır.
+        domain: Google Analytics
+        expiration: Oturum
+        name: _gid
+      headers:
+        description: Açıklama
+        domain: Hizmet
+        expiration: Son Kullanma
+        name: İsim
+    description: Bu çerezler, ziyaretleri ve trafik kaynaklarını saymamıza olanak
+      tanır, böylece sitemizin performansını ölçebilir ve iyileştirebiliriz. Hangi
+      sayfaların en popüler ve en az popüler olduğunu bilmemize ve ziyaretçilerin
+      site içinde nasıl hareket ettiğini görmemize yardımcı olurlar. Bu çerezlerin
+      topladığı tüm bilgiler toplu ve bu nedenle anonimdir. Bu çerezlere izin vermezseniz,
+      sitemizi ne zaman ziyaret ettiğinizi bilemeyeceğiz ve performansını izleyemeyeceğiz.
+    linkedCategory: analytics
+    title: Performans ve Analitik Çerezler
+  - description: Çerez politikamız veya seçimlerinizle ilgili herhangi bir sorunuz
+      için lütfen <a class="cc__link" href="https://www.plexicus.ai/contact">bize
+      ulaşın</a>.
+    title: Daha Fazla Bilgi
+  title: Çerez Tercihleri

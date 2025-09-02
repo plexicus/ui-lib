@@ -1,0 +1,54 @@
+consentModal:
+  acceptAllBtn: Terima Semua
+  acceptNecessaryBtn: Tolak Semua
+  description: Situs web ini menggunakan teknologi pelacakan, seperti cookie, untuk
+    menganalisis perilaku pengguna dan meningkatkan pengalaman Anda. Pelacakan hanya
+    akan diaktifkan jika Anda secara eksplisit menerima. <a href="https://www.plexicus.ai/privacy"
+    data-cc="show-preferencesModal" class="cc__link">Kelola preferensi</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Kebijakan Privasi</a>
+  showPreferencesBtn: Kelola Preferensi
+  title: Kami Menghargai Privasi Anda
+preferencesModal:
+  acceptAllBtn: Terima Semua
+  acceptNecessaryBtn: Tolak Semua
+  closeIconLabel: Tutup
+  savePreferencesBtn: Simpan Preferensi
+  sections:
+  - description: Kami menggunakan cookie untuk memastikan fungsi dasar situs web dan
+      untuk meningkatkan pengalaman online Anda. Anda memiliki opsi untuk memilih
+      masuk atau keluar dari setiap kategori kapan saja. Untuk lebih jelasnya tentang
+      cookie dan data sensitif lainnya, silakan tinjau <a href="https://www.plexicus.ai/privacy">kebijakan
+      privasi</a> kami secara lengkap.
+    title: Penggunaan Cookie
+  - description: Cookie ini penting agar situs web berfungsi dengan baik dan tidak
+      dapat dinonaktifkan. Mereka tidak menyimpan informasi pribadi yang dapat diidentifikasi.
+    linkedCategory: necessary
+    title: Cookie yang Sangat Diperlukan
+  - cookieTable:
+      body:
+      - description: Cookie ini diatur oleh <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Kedaluwarsa setelah 12 hari
+        name: _ga
+      - description: Cookie ini diatur oleh <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Sesi
+        name: _gid
+      headers:
+        description: Deskripsi
+        domain: Layanan
+        expiration: Kedaluwarsa
+        name: Nama
+    description: Cookie ini memungkinkan kami menghitung kunjungan dan sumber lalu
+      lintas sehingga kami dapat mengukur dan meningkatkan kinerja situs kami. Mereka
+      membantu kami mengetahui halaman mana yang paling dan paling tidak populer dan
+      melihat bagaimana pengunjung bergerak di sekitar situs. Semua informasi yang
+      dikumpulkan cookie ini bersifat agregat dan karenanya anonim. Jika Anda tidak
+      mengizinkan cookie ini, kami tidak akan tahu kapan Anda mengunjungi situs kami,
+      dan tidak akan dapat memantau kinerjanya.
+    linkedCategory: analytics
+    title: Cookie Kinerja dan Analitik
+  - description: Untuk pertanyaan mengenai kebijakan cookie kami atau pilihan Anda,
+      silakan <a class="cc__link" href="https://www.plexicus.ai/contact">hubungi kami</a>.
+    title: Informasi Lebih Lanjut
+  title: Preferensi Cookie

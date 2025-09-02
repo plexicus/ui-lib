@@ -1,0 +1,41 @@
+consentModal:
+  acceptAllBtn: 接受全部
+  acceptNecessaryBtn: 拒绝全部
+  description: 本网站使用跟踪技术，例如cookies，以分析用户行为并改善您的体验。只有在您明确接受后，跟踪才会启用。<a href="https://www.plexicus.ai/privacy"
+    data-cc="show-preferencesModal" class="cc__link">管理偏好</a>
+  footer: <a href="https://www.plexicus.ai/privacy">隐私政策</a>
+  showPreferencesBtn: 管理偏好
+  title: 我们重视您的隐私
+preferencesModal:
+  acceptAllBtn: 接受全部
+  acceptNecessaryBtn: 拒绝全部
+  closeIconLabel: 关闭
+  savePreferencesBtn: 保存偏好
+  sections:
+  - description: 我们使用cookies以确保网站的基本功能并增强您的在线体验。您可以随时选择加入或退出每个类别。有关cookies和其他敏感数据的更多详细信息，请查看我们的完整<a
+      href="https://www.plexicus.ai/privacy">隐私政策</a>。
+    title: Cookie使用
+  - description: 这些cookies对于网站正常运行至关重要，无法禁用。它们不存储任何个人身份信息。
+    linkedCategory: necessary
+    title: 严格必要的Cookies
+  - cookieTable:
+      body:
+      - description: 此cookie由<a href="#">Google Analytics</a>设置。
+        domain: Google Analytics
+        expiration: 12天后过期
+        name: _ga
+      - description: 此cookie由<a href="#">Google Analytics</a>设置。
+        domain: Google Analytics
+        expiration: 会话
+        name: _gid
+      headers:
+        description: 描述
+        domain: 服务
+        expiration: 过期时间
+        name: 名称
+    description: 这些cookies使我们能够统计访问次数和流量来源，以便我们衡量和改善网站的性能。它们帮助我们了解哪些页面最受欢迎，哪些页面最不受欢迎，并查看访问者如何在网站上移动。这些cookies收集的所有信息都是汇总的，因此是匿名的。如果您不允许这些cookies，我们将无法知道您何时访问了我们的网站，也无法监控其性能。
+    linkedCategory: analytics
+    title: 性能和分析Cookies
+  - description: 如果您对我们的cookie政策或您的选择有任何疑问，请<a class="cc__link" href="https://www.plexicus.ai/contact">联系我们</a>。
+    title: 更多信息
+  title: Cookie偏好

@@ -1,0 +1,50 @@
+consentModal:
+  acceptAllBtn: קבל הכל
+  acceptNecessaryBtn: דחה הכל
+  description: אתר זה משתמש בטכנולוגיות מעקב, כגון עוגיות, לניתוח התנהגות משתמשים
+    ולשיפור חווייתך. המעקב יופעל רק אם תסכים במפורש. <a href="https://www.plexicus.ai/privacy"
+    data-cc="show-preferencesModal" class="cc__link">נהל העדפות</a>
+  footer: <a href="https://www.plexicus.ai/privacy">מדיניות פרטיות</a>
+  showPreferencesBtn: נהל העדפות
+  title: אנו מעריכים את פרטיותך
+preferencesModal:
+  acceptAllBtn: קבל הכל
+  acceptNecessaryBtn: דחה הכל
+  closeIconLabel: סגור
+  savePreferencesBtn: שמור העדפות
+  sections:
+  - description: אנו משתמשים בעוגיות כדי להבטיח את הפונקציונליות הבסיסית של האתר ולשפר
+      את חווייתך המקוונת. יש לך אפשרות לבחור בכל קטגוריה בכל עת. לפרטים נוספים על
+      עוגיות ונתונים רגישים אחרים, אנא עיין ב<a href="https://www.plexicus.ai/privacy">מדיניות
+      הפרטיות</a> המלאה שלנו.
+    title: שימוש בעוגיות
+  - description: עוגיות אלו חיוניות לתפקוד התקין של האתר ולא ניתן להשביתן. הן אינן
+      מאחסנות מידע אישי מזהה.
+    linkedCategory: necessary
+    title: עוגיות הכרחיות בהחלט
+  - cookieTable:
+      body:
+      - description: עוגיה זו מוגדרת על ידי <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: פג תוקף לאחר 12 ימים
+        name: _ga
+      - description: עוגיה זו מוגדרת על ידי <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: מושב
+        name: _gid
+      headers:
+        description: תיאור
+        domain: שירות
+        expiration: תוקף
+        name: שם
+    description: עוגיות אלו מאפשרות לנו לספור ביקורים ומקורות תנועה כדי שנוכל למדוד
+      ולשפר את ביצועי האתר שלנו. הן עוזרות לנו לדעת אילו דפים הם הפופולריים ביותר
+      והפחות פופולריים ולראות כיצד מבקרים נעים באתר. כל המידע שהעוגיות הללו אוספות
+      הוא מצטבר ולכן אנונימי. אם לא תאפשר עוגיות אלו, לא נדע מתי ביקרת באתר שלנו ולא
+      נוכל לעקוב אחר ביצועיו.
+    linkedCategory: analytics
+    title: עוגיות ביצועים וניתוח
+  - description: לכל שאלה בנוגע למדיניות העוגיות שלנו או לבחירותיך, אנא <a class="cc__link"
+      href="https://www.plexicus.ai/contact">צור קשר</a>.
+    title: מידע נוסף
+  title: העדפות עוגיות
