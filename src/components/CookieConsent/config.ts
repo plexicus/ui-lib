@@ -44,7 +44,8 @@ const pluginConfig: ({webUrl, lang}: {webUrl: string, lang: string})=> CookieCon
 
   language: {
     default: 'en',
-    translations
+    translations,
+    autoDetect: 'document'
   },
 });
 
