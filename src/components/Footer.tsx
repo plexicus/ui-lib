@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import '../i18n';
 import { getFullsiteUrl } from '../lib/utils';
 import { API_URL_WEB, API_URL_BLOG } from '../constants/SiteUrl';
-
+import CookieConsentComponent from '../components/CookieConsent/index.tsx';
 interface FooterProps {
   lang: string,
   fullSiteUrl?: string,
@@ -211,6 +211,9 @@ export function FooterPlexicus({ lang: currentLang, fullSiteUrl = 'http://localh
               <Link href={`${WEB_URL}${lang}legal`} className="underline hover:text-gray-700">
                 {t('footer.policies.legal_notice')}
               </Link>
+              {' '}
+              ·{' '}
+              <CookieConsentComponent webUrl={WEB_URL} lang={lang} />
               </div>
             </p>
             <div>
