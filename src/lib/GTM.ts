@@ -5,7 +5,7 @@ import { GTMContainerId } from '../constants/Gtm'
 export interface analyticsProps {
     containerId?: string
 }
-export const analytics = ({containerId= GTMContainerId}: analyticsProps) => {
+export const analytics = ({containerId = GTMContainerId}: analyticsProps) => {
   return Analytics({
   app: 'plexicus-ui',
   plugins: [
