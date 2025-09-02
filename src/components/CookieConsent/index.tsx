@@ -2,13 +2,14 @@ import { useEffect } from 'react';
 import * as CookieConsent from 'vanilla-cookieconsent';
 import pluginConfig from './config';
 import 'vanilla-cookieconsent/dist/cookieconsent.css';
-const CookieConsentComponent = () => {
+import './styles.css'
+const CookieConsentComponent = ({webUrl, lang} : {webUrl:string, lang:string}) => {
   useEffect(() => {
-    CookieConsent.run(pluginConfig);
+    CookieConsent.run(pluginConfig({webUrl, lang}));
   }, []);
 
   return (
-    <a href="#" onClick={CookieConsent.showPreferences}>
+    <a className='underline hover:text-gray-700 cursor-pointer' onClick={CookieConsent.showPreferences}>
       Show Cookie Preferences
     </a>
   );

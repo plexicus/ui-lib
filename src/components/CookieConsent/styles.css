@@ -1,0 +1,25 @@
+
+.cc-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cc-btns > button {
+  padding: 10px;
+}
+#cc-main {
+  /** Change font **/
+
+  /** Change button primary color to monochromatic to #8220ff **/
+  --cc-btn-primary-bg: #8220ff;
+  --cc-btn-primary-border-color: #6619cc;
+  --cc-btn-primary-hover-bg: #9b51e0;
+  --cc-btn-primary-hover-border-color: #7a29e0;
+
+  /** Also make toggles the same color as the button **/
+  --cc-toggle-on-bg: var(--cc-btn-primary-bg);
+
+  /** Make the buttons a bit rounder **/
+  --cc-btn-border-radius: 10px;
+}
