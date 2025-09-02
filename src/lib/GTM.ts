@@ -6,7 +6,6 @@ export interface analyticsProps {
     containerId?: string
 }
 export const analytics = ({containerId= GTMContainerId}: analyticsProps) => {
-  console.log({containerId})
   return Analytics({
   app: 'awesome-app',
   plugins: [
