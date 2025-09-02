@@ -7,7 +7,7 @@ export interface analyticsProps {
 }
 export const analytics = ({containerId= GTMContainerId}: analyticsProps) => {
   return Analytics({
-  app: 'awesome-app',
+  app: 'plexicus-ui',
   plugins: [
     googleTagManager({
       containerId
