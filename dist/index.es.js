@@ -13012,7 +13012,8 @@ const lg = () => ({
   },
   language: {
     default: "en",
-    translations: _t
+    translations: _t,
+    autoDetect: "document"
   }
 }), ug = ({ webUrl: e, lang: t }) => (_e(() => {
   Wf(lg());
