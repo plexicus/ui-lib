@@ -1,0 +1,53 @@
+consentModal:
+  acceptAllBtn: Hyväksy kaikki
+  acceptNecessaryBtn: Hylkää kaikki
+  description: Tämä verkkosivusto käyttää seurantateknologioita, kuten evästeitä,
+    käyttäjien käyttäytymisen analysoimiseksi ja kokemuksesi parantamiseksi. Seuranta
+    aktivoidaan vain, jos hyväksyt sen nimenomaisesti. <a href="https://www.plexicus.ai/privacy"
+    data-cc="show-preferencesModal" class="cc__link">Hallitse asetuksia</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Tietosuojakäytäntö</a>
+  showPreferencesBtn: Hallitse asetuksia
+  title: Arvostamme yksityisyyttäsi
+preferencesModal:
+  acceptAllBtn: Hyväksy kaikki
+  acceptNecessaryBtn: Hylkää kaikki
+  closeIconLabel: Sulje
+  savePreferencesBtn: Tallenna asetukset
+  sections:
+  - description: Käytämme evästeitä varmistaaksemme verkkosivuston perustoiminnallisuuden
+      ja parantaaksemme verkkokokemustasi. Voit valita kunkin kategorian hyväksymisen
+      tai hylkäämisen milloin tahansa. Lisätietoja evästeistä ja muista arkaluontoisista
+      tiedoista löydät täydestä <a href="https://www.plexicus.ai/privacy">tietosuojakäytännöstämme</a>.
+    title: Evästeiden käyttö
+  - description: Nämä evästeet ovat välttämättömiä verkkosivuston asianmukaiselle
+      toiminnalle, eikä niitä voi poistaa käytöstä. Ne eivät tallenna mitään henkilökohtaisesti
+      tunnistettavia tietoja.
+    linkedCategory: necessary
+    title: Välttämättömät evästeet
+  - cookieTable:
+      body:
+      - description: Tämä eväste asetetaan <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Vanhenee 12 päivän kuluttua
+        name: _ga
+      - description: Tämä eväste asetetaan <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Istunto
+        name: _gid
+      headers:
+        description: Kuvaus
+        domain: Palvelu
+        expiration: Vanhentuminen
+        name: Nimi
+    description: Nämä evästeet mahdollistavat käyntien ja liikenteen lähteiden laskemisen,
+      jotta voimme mitata ja parantaa sivustomme suorituskykyä. Ne auttavat meitä
+      tietämään, mitkä sivut ovat suosituimpia ja vähiten suosittuja sekä näkemään,
+      miten kävijät liikkuvat sivustolla. Kaikki näiden evästeiden keräämä tieto on
+      koottua ja siten anonyymiä. Jos et salli näitä evästeitä, emme tiedä, milloin
+      olet käynyt sivustollamme, emmekä pysty seuraamaan sen suorituskykyä.
+    linkedCategory: analytics
+    title: Suorituskyky- ja analytiikkaevästeet
+  - description: Jos sinulla on kysyttävää evästekäytännöstämme tai valinnoistasi,
+      ole hyvä ja <a class="cc__link" href="https://www.plexicus.ai/contact">ota yhteyttä</a>.
+    title: Lisätietoja
+  title: Evästeasetukset

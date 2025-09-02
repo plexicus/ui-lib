@@ -1,0 +1,52 @@
+consentModal:
+  acceptAllBtn: Accepter alle
+  acceptNecessaryBtn: Afvis alle
+  description: Denne hjemmeside bruger sporingsteknologier, såsom cookies, til at
+    analysere brugeradfærd og forbedre din oplevelse. Sporing vil kun blive aktiveret,
+    hvis du eksplicit accepterer. <a href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal"
+    class="cc__link">Administrer præferencer</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Privatlivspolitik</a>
+  showPreferencesBtn: Administrer præferencer
+  title: Vi værdsætter dit privatliv
+preferencesModal:
+  acceptAllBtn: Accepter alle
+  acceptNecessaryBtn: Afvis alle
+  closeIconLabel: Luk
+  savePreferencesBtn: Gem præferencer
+  sections:
+  - description: Vi bruger cookies for at sikre den grundlæggende funktionalitet af
+      hjemmesiden og for at forbedre din online oplevelse. Du har mulighed for at
+      til- eller fravælge hver kategori til enhver tid. For flere detaljer om cookies
+      og andre følsomme data, bedes du gennemgå vores fulde <a href="https://www.plexicus.ai/privacy">privatlivspolitik</a>.
+    title: Cookiebrug
+  - description: Disse cookies er essentielle for, at hjemmesiden fungerer korrekt
+      og kan ikke deaktiveres. De gemmer ikke nogen personligt identificerbare oplysninger.
+    linkedCategory: nødvendig
+    title: Strengt nødvendige cookies
+  - cookieTable:
+      body:
+      - description: Denne cookie er sat af <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Udløber efter 12 dage
+        name: _ga
+      - description: Denne cookie er sat af <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Session
+        name: _gid
+      headers:
+        description: Beskrivelse
+        domain: Tjeneste
+        expiration: Udløb
+        name: Navn
+    description: Disse cookies giver os mulighed for at tælle besøg og trafikkilder,
+      så vi kan måle og forbedre ydelsen af vores hjemmeside. De hjælper os med at
+      vide, hvilke sider der er mest og mindst populære og se, hvordan besøgende bevæger
+      sig rundt på siden. Al information, som disse cookies indsamler, er aggregeret
+      og derfor anonym. Hvis du ikke tillader disse cookies, vil vi ikke vide, hvornår
+      du har besøgt vores hjemmeside, og vil ikke kunne overvåge dens ydelse.
+    linkedCategory: analyse
+    title: Ydelses- og analysecookies
+  - description: For spørgsmål vedrørende vores cookiepolitik eller dine valg, bedes
+      du <a class="cc__link" href="https://www.plexicus.ai/contact">kontakte os</a>.
+    title: Mere information
+  title: Cookiepræferencer

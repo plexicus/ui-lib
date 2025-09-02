@@ -1,0 +1,54 @@
+consentModal:
+  acceptAllBtn: Akceptuj wszystkie
+  acceptNecessaryBtn: Odrzuć wszystkie
+  description: Ta strona używa technologii śledzenia, takich jak pliki cookie, do
+    analizy zachowań użytkowników i poprawy Twojego doświadczenia. Śledzenie będzie
+    włączone tylko wtedy, gdy wyraźnie zaakceptujesz. <a href="https://www.plexicus.ai/privacy"
+    data-cc="show-preferencesModal" class="cc__link">Zarządzaj preferencjami</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Polityka prywatności</a>
+  showPreferencesBtn: Zarządzaj preferencjami
+  title: Cenimy Twoją prywatność
+preferencesModal:
+  acceptAllBtn: Akceptuj wszystkie
+  acceptNecessaryBtn: Odrzuć wszystkie
+  closeIconLabel: Zamknij
+  savePreferencesBtn: Zapisz preferencje
+  sections:
+  - description: Używamy plików cookie, aby zapewnić podstawową funkcjonalność strony
+      i poprawić Twoje doświadczenie online. Masz możliwość włączenia lub wyłączenia
+      każdej kategorii w dowolnym momencie. Aby uzyskać więcej informacji na temat
+      plików cookie i innych wrażliwych danych, zapoznaj się z naszą pełną <a href="https://www.plexicus.ai/privacy">polityką
+      prywatności</a>.
+    title: Użycie plików cookie
+  - description: Te pliki cookie są niezbędne do prawidłowego funkcjonowania strony
+      i nie mogą być wyłączone. Nie przechowują żadnych danych osobowych.
+    linkedCategory: konieczne
+    title: Ściśle niezbędne pliki cookie
+  - cookieTable:
+      body:
+      - description: Ten plik cookie jest ustawiany przez <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Wygasa po 12 dniach
+        name: _ga
+      - description: Ten plik cookie jest ustawiany przez <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Sesja
+        name: _gid
+      headers:
+        description: Opis
+        domain: Usługa
+        expiration: Wygaśnięcie
+        name: Nazwa
+    description: Te pliki cookie pozwalają nam liczyć wizyty i źródła ruchu, abyśmy
+      mogli mierzyć i poprawiać wydajność naszej strony. Pomagają nam wiedzieć, które
+      strony są najbardziej i najmniej popularne oraz jak odwiedzający poruszają się
+      po stronie. Wszystkie informacje zbierane przez te pliki cookie są agregowane
+      i anonimowe. Jeśli nie pozwolisz na te pliki cookie, nie będziemy wiedzieć,
+      kiedy odwiedziłeś naszą stronę i nie będziemy mogli monitorować jej wydajności.
+    linkedCategory: analityka
+    title: Pliki cookie wydajności i analityki
+  - description: W przypadku jakichkolwiek pytań dotyczących naszej polityki plików
+      cookie lub Twoich wyborów, prosimy <a class="cc__link" href="https://www.plexicus.ai/contact">skontaktuj
+      się z nami</a>.
+    title: Więcej informacji
+  title: Preferencje dotyczące plików cookie

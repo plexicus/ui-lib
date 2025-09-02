@@ -1,0 +1,53 @@
+consentModal:
+  acceptAllBtn: Accepteer Alles
+  acceptNecessaryBtn: Weiger Alles
+  description: Deze website gebruikt trackingtechnologieën, zoals cookies, om gebruikersgedrag
+    te analyseren en uw ervaring te verbeteren. Tracking wordt alleen ingeschakeld
+    als u expliciet accepteert. <a href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal"
+    class="cc__link">Beheer voorkeuren</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Privacybeleid</a>
+  showPreferencesBtn: Beheer Voorkeuren
+  title: Wij Waarderen Uw Privacy
+preferencesModal:
+  acceptAllBtn: Accepteer Alles
+  acceptNecessaryBtn: Weiger Alles
+  closeIconLabel: Sluiten
+  savePreferencesBtn: Voorkeuren Opslaan
+  sections:
+  - description: We gebruiken cookies om de basisfunctionaliteit van de website te
+      garanderen en uw online ervaring te verbeteren. U heeft de mogelijkheid om op
+      elk moment in of uit te schakelen voor elke categorie. Voor meer details over
+      cookies en andere gevoelige gegevens, bekijk ons volledige <a href="https://www.plexicus.ai/privacy">privacybeleid</a>.
+    title: Cookiegebruik
+  - description: Deze cookies zijn essentieel voor de goede werking van de website
+      en kunnen niet worden uitgeschakeld. Ze slaan geen persoonlijk identificeerbare
+      informatie op.
+    linkedCategory: noodzakelijk
+    title: Strikt Noodzakelijke Cookies
+  - cookieTable:
+      body:
+      - description: Deze cookie wordt ingesteld door <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Verloopt na 12 dagen
+        name: _ga
+      - description: Deze cookie wordt ingesteld door <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Sessie
+        name: _gid
+      headers:
+        description: Beschrijving
+        domain: Dienst
+        expiration: Verloop
+        name: Naam
+    description: Deze cookies stellen ons in staat om bezoeken en verkeersbronnen
+      te tellen zodat we de prestaties van onze site kunnen meten en verbeteren. Ze
+      helpen ons te weten welke pagina's het meest en minst populair zijn en hoe bezoekers
+      zich over de site bewegen. Alle informatie die deze cookies verzamelen is geaggregeerd
+      en dus anoniem. Als u deze cookies niet toestaat, weten we niet wanneer u onze
+      site heeft bezocht en kunnen we de prestaties niet monitoren.
+    linkedCategory: analytisch
+    title: Prestatie- en Analysecookies
+  - description: Voor vragen over ons cookiebeleid of uw keuzes, neem dan <a class="cc__link"
+      href="https://www.plexicus.ai/contact">contact met ons op</a>.
+    title: Meer Informatie
+  title: Cookievoorkeuren

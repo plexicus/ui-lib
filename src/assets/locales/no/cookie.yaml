@@ -1,0 +1,55 @@
+consentModal:
+  acceptAllBtn: Aksepter alle
+  acceptNecessaryBtn: Avvis alle
+  description: Denne nettsiden bruker sporingsteknologier, som informasjonskapsler,
+    for å analysere brukeradferd og forbedre din opplevelse. Sporing vil kun bli aktivert
+    hvis du eksplisitt aksepterer. <a href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal"
+    class="cc__link">Administrer preferanser</a>
+  footer: <a href="https://www.plexicus.ai/privacy">Personvernpolicy</a>
+  showPreferencesBtn: Administrer preferanser
+  title: Vi verdsetter ditt personvern
+preferencesModal:
+  acceptAllBtn: Aksepter alle
+  acceptNecessaryBtn: Avvis alle
+  closeIconLabel: Lukk
+  savePreferencesBtn: Lagre preferanser
+  sections:
+  - description: Vi bruker informasjonskapsler for å sikre grunnleggende funksjonalitet
+      på nettsiden og for å forbedre din online opplevelse. Du har muligheten til
+      å velge inn eller ut av hver kategori når som helst. For mer informasjon om
+      informasjonskapsler og andre sensitive data, vennligst se vår fullstendige <a
+      href="https://www.plexicus.ai/privacy">personvernpolicy</a>.
+    title: Bruk av informasjonskapsler
+  - description: Disse informasjonskapslene er essensielle for at nettsiden skal fungere
+      riktig og kan ikke deaktiveres. De lagrer ingen personlig identifiserbar informasjon.
+    linkedCategory: nødvendig
+    title: Strengt nødvendige informasjonskapsler
+  - cookieTable:
+      body:
+      - description: Denne informasjonskapselen settes av <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Utløper etter 12 dager
+        name: _ga
+      - description: Denne informasjonskapselen settes av <a href="#">Google Analytics</a>.
+        domain: Google Analytics
+        expiration: Økt
+        name: _gid
+      headers:
+        description: Beskrivelse
+        domain: Tjeneste
+        expiration: Utløp
+        name: Navn
+    description: Disse informasjonskapslene lar oss telle besøk og trafikkilder slik
+      at vi kan måle og forbedre ytelsen til nettstedet vårt. De hjelper oss å vite
+      hvilke sider som er mest og minst populære og se hvordan besøkende beveger seg
+      rundt på nettstedet. All informasjon disse informasjonskapslene samler inn er
+      aggregert og derfor anonym. Hvis du ikke tillater disse informasjonskapslene,
+      vil vi ikke vite når du har besøkt vårt nettsted, og vil ikke kunne overvåke
+      ytelsen.
+    linkedCategory: analyse
+    title: Ytelse og analyse informasjonskapsler
+  - description: For spørsmål angående vår informasjonskapselpolicy eller dine valg,
+      vennligst <a class="cc__link" href="https://www.plexicus.ai/contact">kontakt
+      oss</a>.
+    title: Mer informasjon
+  title: Informasjonskapselpreferanser

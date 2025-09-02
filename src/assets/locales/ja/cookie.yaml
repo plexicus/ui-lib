@@ -1,0 +1,41 @@
+consentModal:
+  acceptAllBtn: 全てを許可
+  acceptNecessaryBtn: 全てを拒否
+  description: このウェブサイトは、クッキーなどの追跡技術を使用してユーザーの行動を分析し、体験を向上させます。追跡は、明示的に許可した場合のみ有効になります。<a
+    href="https://www.plexicus.ai/privacy" data-cc="show-preferencesModal" class="cc__link">設定を管理</a>
+  footer: <a href="https://www.plexicus.ai/privacy">プライバシーポリシー</a>
+  showPreferencesBtn: 設定を管理
+  title: プライバシーを重視します
+preferencesModal:
+  acceptAllBtn: 全てを許可
+  acceptNecessaryBtn: 全てを拒否
+  closeIconLabel: 閉じる
+  savePreferencesBtn: 設定を保存
+  sections:
+  - description: ウェブサイトの基本機能を確保し、オンライン体験を向上させるためにクッキーを使用しています。各カテゴリをいつでも選択することができます。クッキーやその他の機密データの詳細については、完全な<a
+      href="https://www.plexicus.ai/privacy">プライバシーポリシー</a>をご覧ください。
+    title: クッキーの使用
+  - description: これらのクッキーは、ウェブサイトが正常に機能するために不可欠であり、無効にすることはできません。これらは個人を特定できる情報を保存しません。
+    linkedCategory: 必要
+    title: 厳密に必要なクッキー
+  - cookieTable:
+      body:
+      - description: このクッキーは<a href="#">Google Analytics</a>によって設定されます。
+        domain: Google Analytics
+        expiration: 12日後に期限切れ
+        name: _ga
+      - description: このクッキーは<a href="#">Google Analytics</a>によって設定されます。
+        domain: Google Analytics
+        expiration: セッション
+        name: _gid
+      headers:
+        description: 説明
+        domain: サービス
+        expiration: 有効期限
+        name: 名前
+    description: これらのクッキーは、訪問数とトラフィックソースをカウントすることで、サイトのパフォーマンスを測定し改善することを可能にします。どのページが最も人気があるか、または人気がないかを知り、訪問者がサイト内をどのように移動するかを確認するのに役立ちます。これらのクッキーが収集する情報はすべて集約されており、匿名です。これらのクッキーを許可しない場合、サイトを訪問したことがわからず、パフォーマンスを監視することができません。
+    linkedCategory: 分析
+    title: パフォーマンスと分析クッキー
+  - description: クッキーポリシーや選択に関する質問がある場合は、<a class="cc__link" href="https://www.plexicus.ai/contact">お問い合わせください</a>。
+    title: 詳細情報
+  title: クッキー設定
